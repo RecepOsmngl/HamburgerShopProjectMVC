@@ -16,7 +16,7 @@ namespace HamburgerMVC
             {
                 options.UseSqlServer(builder.Configuration.GetConnectionString("connectionString"));
             });
-            builder.Services.AddIdentity<AppUser, IdentityRole>().AddEntityFrameworkStores<Context>();
+            builder.Services.AddIdentity<AppUser, IdentityRole>().AddEntityFrameworkStores<Context>(); //Usage of Identity
 
             var app = builder.Build();
 
