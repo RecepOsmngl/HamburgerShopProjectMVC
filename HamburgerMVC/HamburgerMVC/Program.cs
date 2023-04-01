@@ -1,15 +1,22 @@
 using HamburgerMVC.Models;
+using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
+using System.Security.Cryptography.X509Certificates;
 
 namespace HamburgerMVC
 {
     public class Program
     {
+        //public void Configure(IApplicationBuilder app, IWebHostEnvironment env, Context context)
+        //{
+        //    SeedData.Initialize(app.ApplicationServices);
+        //}
         public static void Main(string[] args)
         {
             var builder = WebApplication.CreateBuilder(args);
 
+      
             // Add services to the container.
             builder.Services.AddControllersWithViews();
             builder.Services.AddDbContext<Context>(options =>
@@ -17,6 +24,11 @@ namespace HamburgerMVC
                 options.UseSqlServer(builder.Configuration.GetConnectionString("connectionString"));
             });
             builder.Services.AddIdentity<AppUser, IdentityRole>().AddEntityFrameworkStores<Context>(); //Usage of Identity
+
+            builder.Services.Configure<IdentityOptions>(opt =>
+            {
+                opt.User.RequireUniqueEmail = true;
+            });
 
             var app = builder.Build();
 

@@ -274,8 +274,3 @@ C:\Users\dogus\OneDrive\Masaüstü\gitProjeler\HamburgerShop\HamburgerMVC\Hambur
 C:\Users\dogus\OneDrive\Masaüstü\gitProjeler\HamburgerShop\HamburgerMVC\HamburgerMVC\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Drawing.Common.dll
 C:\Users\dogus\OneDrive\Masaüstü\gitProjeler\HamburgerShop\HamburgerMVC\HamburgerMVC\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
 C:\Users\dogus\OneDrive\Masaüstü\gitProjeler\HamburgerShop\HamburgerMVC\HamburgerMVC\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
-C:\Users\dogus\OneDrive\Masaüstü\gitProjeler\HamburgerShop\HamburgerMVC\HamburgerMVC\bin\Debug\net6.0\AdminLTE-3.0.4\composer.json
-C:\Users\dogus\OneDrive\Masaüstü\gitProjeler\HamburgerShop\HamburgerMVC\HamburgerMVC\bin\Debug\net6.0\AdminLTE-3.0.4\package-lock.json
-C:\Users\dogus\OneDrive\Masaüstü\gitProjeler\HamburgerShop\HamburgerMVC\HamburgerMVC\bin\Debug\net6.0\AdminLTE-3.0.4\package.json
-C:\Users\dogus\OneDrive\Masaüstü\gitProjeler\HamburgerShop\HamburgerMVC\HamburgerMVC\bin\Debug\net6.0\AdminLTE-3.0.4\plugins\daterangepicker\bower.json
-C:\Users\dogus\OneDrive\Masaüstü\gitProjeler\HamburgerShop\HamburgerMVC\HamburgerMVC\bin\Debug\net6.0\AdminLTE-3.0.4\plugins\raphael\bower.json
