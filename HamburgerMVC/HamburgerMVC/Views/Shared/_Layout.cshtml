@@ -36,6 +36,11 @@
     <div class="container">
         <main role="main" class="pb-3">
             @RenderBody()
+            <br />
+            @if (User?.Identity?.IsAuthenticated ?? false)
+            {
+                <a asp-controller="Account" asp-action="Logout" class="btn btn-danger">Logout</a>
+            }
         </main>
     </div>
 

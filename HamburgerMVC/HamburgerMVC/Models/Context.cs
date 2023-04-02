@@ -1,5 +1,4 @@
-﻿using HamburgerMVC.Models.Configurations;
-using Microsoft.AspNetCore.Identity;
+﻿using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
 using System.Reflection.Emit;
@@ -17,10 +16,18 @@ namespace HamburgerMVC.Models
         public DbSet<Menu> Menus { get; set; }
         public DbSet<Order> Orders { get; set; }
 
+
         protected override void OnModelCreating(ModelBuilder builder)
         {
             base.OnModelCreating(builder);
-            builder.ApplyConfiguration(new ExtraIngredientConfig()).ApplyConfiguration(new MenuConfig());
+
+            builder.Entity<ExtraIngredientOrder>().HasKey(x => new { x.OrderId, x.ExtraIngredientId });
+            builder.Entity<ExtraIngredientOrder>().HasOne(x => x.ExtraIngredient).WithMany(x => x.Orders).HasForeignKey(x => x.ExtraIngredientId);
+            builder.Entity<ExtraIngredientOrder>().HasOne(x => x.Order).WithMany(x => x.ExtraIngredients).HasForeignKey(x => x.OrderId);
+
+            builder.Entity<MenuOrder>().HasKey(x => new { x.OrderId, x.MenuId });
+            builder.Entity<MenuOrder>().HasOne(x => x.Menu).WithMany(x => x.Orders).HasForeignKey(x => x.MenuId);
+            builder.Entity<MenuOrder>().HasOne(x => x.Order).WithMany(x => x.Menus).HasForeignKey(x => x.OrderId);
             builder.Entity<Order>().Property(x => x.Size).HasConversion<string>();
 
             builder.Entity<IdentityRole>().HasData(new IdentityRole { Id = "2c5e174e-3b0e-446f-86af-483d56fd7210", Name = "Manager", NormalizedName = "MANAGER".ToUpper() });
@@ -75,6 +82,6 @@ namespace HamburgerMVC.Models
 
         }
 
-        
+
     }
 }

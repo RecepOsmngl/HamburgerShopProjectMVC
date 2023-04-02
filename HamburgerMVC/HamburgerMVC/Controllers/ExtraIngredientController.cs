@@ -25,7 +25,7 @@ namespace HamburgerMVC.Controllers
         ExtraIngredientVM extraIngredientVM = new ExtraIngredientVM();
         public IActionResult ExtraIngredientList()
         {
-            extraIngredientVM.ExtraIngredients = context.ExtraIngredients.Select(x => new ExtraIngredientDTO()
+            extraIngredientVM.eList = context.ExtraIngredients.Select(x => new ExtraIngredientDTO()
             {
                 ExtraIngredientId = x.ExtraIngredientId,
                 ExtraIngredientName = x.ExtraIngredientName,
@@ -49,7 +49,7 @@ namespace HamburgerMVC.Controllers
         
         public IActionResult ExtraIngredientEdit(int id)
         {
-            extraIngredientVM.ExtraIngredient = context.ExtraIngredients.FirstOrDefault(x => x.ExtraIngredientId == (id));
+            ExtraIngredient extraIngredient = context.ExtraIngredients.FirstOrDefault(x=>x.ExtraIngredientId.Equals(id));
             return View(extraIngredientVM);
         }
         [HttpPost]
@@ -59,8 +59,7 @@ namespace HamburgerMVC.Controllers
             extraIngredient.ExtraIngredientName = extraIngredientVM.ExtraIngredient.ExtraIngredientName;
             extraIngredient.ExtraIngredientPrice = extraIngredientVM.ExtraIngredient.ExtraIngredientPrice;
             context.SaveChanges();
-            TempData["result"] = "The Extra ingredient successfully updated!";
-            return View("ExtraIngredientList");
+            return RedirectToAction("ExtraIngredientList");
         }
         public IActionResult ExtraIngredientDelete(int id)
         {

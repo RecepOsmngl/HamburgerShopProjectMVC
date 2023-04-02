@@ -5,7 +5,7 @@ using Microsoft.EntityFrameworkCore.Migrations;
 
 namespace HamburgerMVC.Migrations
 {
-    public partial class init : Migration
+    public partial class initdb : Migration
     {
         protected override void Up(MigrationBuilder migrationBuilder)
         {
@@ -46,6 +46,34 @@ namespace HamburgerMVC.Migrations
                 constraints: table =>
                 {
                     table.PrimaryKey("PK_AspNetUsers", x => x.Id);
+                });
+
+            migrationBuilder.CreateTable(
+                name: "ExtraIngredients",
+                columns: table => new
+                {
+                    ExtraIngredientId = table.Column<int>(type: "int", nullable: false)
+                        .Annotation("SqlServer:Identity", "1, 1"),
+                    ExtraIngredientName = table.Column<string>(type: "nvarchar(max)", nullable: false),
+                    ExtraIngredientPrice = table.Column<decimal>(type: "decimal(18,2)", nullable: false)
+                },
+                constraints: table =>
+                {
+                    table.PrimaryKey("PK_ExtraIngredients", x => x.ExtraIngredientId);
+                });
+
+            migrationBuilder.CreateTable(
+                name: "Menus",
+                columns: table => new
+                {
+                    MenuId = table.Column<int>(type: "int", nullable: false)
+                        .Annotation("SqlServer:Identity", "1, 1"),
+                    MenuName = table.Column<string>(type: "nvarchar(max)", nullable: false),
+                    MenuPrice = table.Column<decimal>(type: "decimal(18,2)", nullable: false)
+                },
+                constraints: table =>
+                {
+                    table.PrimaryKey("PK_Menus", x => x.MenuId);
                 });
 
             migrationBuilder.CreateTable(
@@ -176,40 +204,47 @@ namespace HamburgerMVC.Migrations
                 });
 
             migrationBuilder.CreateTable(
-                name: "ExtraIngredients",
+                name: "ExtraIngredientOrder",
                 columns: table => new
                 {
-                    ExtraIngredientId = table.Column<int>(type: "int", nullable: false)
-                        .Annotation("SqlServer:Identity", "1, 1"),
-                    ExtraIngredientName = table.Column<string>(type: "nvarchar(max)", nullable: false),
-                    ExtraIngredientPrice = table.Column<decimal>(type: "decimal(18,2)", nullable: false),
-                    OrderId = table.Column<int>(type: "int", nullable: true)
-                },
-                constraints: table =>
-                {
-                    table.PrimaryKey("PK_ExtraIngredients", x => x.ExtraIngredientId);
-                    table.ForeignKey(
-                        name: "FK_ExtraIngredients_Orders_OrderId",
-                        column: x => x.OrderId,
-                        principalTable: "Orders",
-                        principalColumn: "OrderId");
-                });
-
-            migrationBuilder.CreateTable(
-                name: "Menus",
-                columns: table => new
-                {
-                    MenuId = table.Column<int>(type: "int", nullable: false)
-                        .Annotation("SqlServer:Identity", "1, 1"),
-                    MenuName = table.Column<string>(type: "nvarchar(max)", nullable: false),
-                    MenuPrice = table.Column<decimal>(type: "decimal(18,2)", nullable: false),
+                    ExtraIngredientId = table.Column<int>(type: "int", nullable: false),
                     OrderId = table.Column<int>(type: "int", nullable: false)
                 },
                 constraints: table =>
                 {
-                    table.PrimaryKey("PK_Menus", x => x.MenuId);
+                    table.PrimaryKey("PK_ExtraIngredientOrder", x => new { x.OrderId, x.ExtraIngredientId });
                     table.ForeignKey(
-                        name: "FK_Menus_Orders_OrderId",
+                        name: "FK_ExtraIngredientOrder_ExtraIngredients_ExtraIngredientId",
+                        column: x => x.ExtraIngredientId,
+                        principalTable: "ExtraIngredients",
+                        principalColumn: "ExtraIngredientId",
+                        onDelete: ReferentialAction.Cascade);
+                    table.ForeignKey(
+                        name: "FK_ExtraIngredientOrder_Orders_OrderId",
+                        column: x => x.OrderId,
+                        principalTable: "Orders",
+                        principalColumn: "OrderId",
+                        onDelete: ReferentialAction.Cascade);
+                });
+
+            migrationBuilder.CreateTable(
+                name: "MenuOrder",
+                columns: table => new
+                {
+                    MenuId = table.Column<int>(type: "int", nullable: false),
+                    OrderId = table.Column<int>(type: "int", nullable: false)
+                },
+                constraints: table =>
+                {
+                    table.PrimaryKey("PK_MenuOrder", x => new { x.OrderId, x.MenuId });
+                    table.ForeignKey(
+                        name: "FK_MenuOrder_Menus_MenuId",
+                        column: x => x.MenuId,
+                        principalTable: "Menus",
+                        principalColumn: "MenuId",
+                        onDelete: ReferentialAction.Cascade);
+                    table.ForeignKey(
+                        name: "FK_MenuOrder_Orders_OrderId",
                         column: x => x.OrderId,
                         principalTable: "Orders",
                         principalColumn: "OrderId",
@@ -219,12 +254,12 @@ namespace HamburgerMVC.Migrations
             migrationBuilder.InsertData(
                 table: "AspNetRoles",
                 columns: new[] { "Id", "ConcurrencyStamp", "Name", "NormalizedName" },
-                values: new object[] { "2c5e174e-3b0e-446f-86af-483d56fd7210", "24d12852-7aac-4537-908d-d0de119e4278", "Manager", "MANAGER" });
+                values: new object[] { "2c5e174e-3b0e-446f-86af-483d56fd7210", "3270065b-ba64-45d5-8df9-607fff445d47", "Manager", "MANAGER" });
 
             migrationBuilder.InsertData(
                 table: "AspNetUsers",
                 columns: new[] { "Id", "AccessFailedCount", "ConcurrencyStamp", "Email", "EmailConfirmed", "LockoutEnabled", "LockoutEnd", "NormalizedEmail", "NormalizedUserName", "PasswordHash", "PhoneNumber", "PhoneNumberConfirmed", "SecurityStamp", "TwoFactorEnabled", "UserName" },
-                values: new object[] { "8e445865-a24d-4543-a6c6-9443d048cdb9", 0, "2ab711c2-5c16-4988-b276-27353c95833c", "manager007@gmail.com", false, false, null, "MANAGER007@GMAIL.COM", "MANAGER007", "AQAAAAEAACcQAAAAEJUyS2RMBVMiClB4U0+X2uSpU/63Bq2ZzmHEIpMg+zxcMt/sVjMczUAZ9u6xRwLjvQ==", null, false, "f99ad133-0217-470f-b7ec-55e0e5ca69a2", false, "manager007" });
+                values: new object[] { "8e445865-a24d-4543-a6c6-9443d048cdb9", 0, "70829434-fc3f-403d-a6e0-f56da6823e5d", "manager007@gmail.com", false, false, null, "MANAGER007@GMAIL.COM", "MANAGER007", "AQAAAAEAACcQAAAAEGBdGVWMMnYr+L8kwkYlTPVopv5xbgqGenW9UcB/BNFH24rVR3ZanyZHl2EuEID+Pw==", null, false, "0d4671f4-c835-41e7-9e50-347053f1db1c", false, "manager007" });
 
             migrationBuilder.InsertData(
                 table: "AspNetUserRoles",
@@ -271,14 +306,14 @@ namespace HamburgerMVC.Migrations
                 filter: "[NormalizedUserName] IS NOT NULL");
 
             migrationBuilder.CreateIndex(
-                name: "IX_ExtraIngredients_OrderId",
-                table: "ExtraIngredients",
-                column: "OrderId");
+                name: "IX_ExtraIngredientOrder_ExtraIngredientId",
+                table: "ExtraIngredientOrder",
+                column: "ExtraIngredientId");
 
             migrationBuilder.CreateIndex(
-                name: "IX_Menus_OrderId",
-                table: "Menus",
-                column: "OrderId");
+                name: "IX_MenuOrder_MenuId",
+                table: "MenuOrder",
+                column: "MenuId");
 
             migrationBuilder.CreateIndex(
                 name: "IX_Orders_AppUserId",
@@ -304,13 +339,19 @@ namespace HamburgerMVC.Migrations
                 name: "AspNetUserTokens");
 
             migrationBuilder.DropTable(
+                name: "ExtraIngredientOrder");
+
+            migrationBuilder.DropTable(
+                name: "MenuOrder");
+
+            migrationBuilder.DropTable(
+                name: "AspNetRoles");
+
+            migrationBuilder.DropTable(
                 name: "ExtraIngredients");
 
             migrationBuilder.DropTable(
                 name: "Menus");
-
-            migrationBuilder.DropTable(
-                name: "AspNetRoles");
 
             migrationBuilder.DropTable(
                 name: "Orders");

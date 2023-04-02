@@ -9,15 +9,15 @@ namespace HamburgerMVC.Models
     {
         public Order()
         {
-            ExtraIngredients = new HashSet<ExtraIngredient>();
-            Menus= new HashSet<Menu>();
+            ExtraIngredients = new HashSet<ExtraIngredientOrder>();
+            Menus = new HashSet<MenuOrder>();
         }
         [EnumDataType(typeof(Size))]
         public Size Size { get; set; }
         public int OrderId { get; set; }
-        public ICollection<Menu> Menus { get; set; }
-        public ICollection<ExtraIngredient> ExtraIngredients { get; set; }
+        public ICollection<ExtraIngredientOrder> ExtraIngredients { get; set; }
         public int Quantity { get; set; }
+        public ICollection<MenuOrder> Menus { get; set; }
         public string AppUserId { get; set; }
         public virtual AppUser AppUser { get; set; }
 

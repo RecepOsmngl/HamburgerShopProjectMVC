@@ -89,7 +89,7 @@ namespace HamburgerMVC.Controllers
                         if (await userManager.IsInRoleAsync(appUser, "Customer"))
                             return RedirectToAction("HomePage", "Order");
                         else
-                            return RedirectToAction("HomePage", "ExtraIngredient");
+                            return RedirectToAction("ExtraIngredientList", "ExtraIngredient");
                     }
                     ModelState.AddModelError("", "Invalid password or username");
                 }

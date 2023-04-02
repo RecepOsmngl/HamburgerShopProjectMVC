@@ -91,15 +91,15 @@ namespace HamburgerMVC.Migrations
                         {
                             Id = "8e445865-a24d-4543-a6c6-9443d048cdb9",
                             AccessFailedCount = 0,
-                            ConcurrencyStamp = "2ab711c2-5c16-4988-b276-27353c95833c",
+                            ConcurrencyStamp = "70829434-fc3f-403d-a6e0-f56da6823e5d",
                             Email = "manager007@gmail.com",
                             EmailConfirmed = false,
                             LockoutEnabled = false,
                             NormalizedEmail = "MANAGER007@GMAIL.COM",
                             NormalizedUserName = "MANAGER007",
-                            PasswordHash = "AQAAAAEAACcQAAAAEJUyS2RMBVMiClB4U0+X2uSpU/63Bq2ZzmHEIpMg+zxcMt/sVjMczUAZ9u6xRwLjvQ==",
+                            PasswordHash = "AQAAAAEAACcQAAAAEGBdGVWMMnYr+L8kwkYlTPVopv5xbgqGenW9UcB/BNFH24rVR3ZanyZHl2EuEID+Pw==",
                             PhoneNumberConfirmed = false,
-                            SecurityStamp = "f99ad133-0217-470f-b7ec-55e0e5ca69a2",
+                            SecurityStamp = "0d4671f4-c835-41e7-9e50-347053f1db1c",
                             TwoFactorEnabled = false,
                             UserName = "manager007"
                         });
@@ -120,14 +120,24 @@ namespace HamburgerMVC.Migrations
                     b.Property<decimal>("ExtraIngredientPrice")
                         .HasColumnType("decimal(18,2)");
 
-                    b.Property<int?>("OrderId")
-                        .HasColumnType("int");
-
                     b.HasKey("ExtraIngredientId");
 
-                    b.HasIndex("OrderId");
-
                     b.ToTable("ExtraIngredients");
+                });
+
+            modelBuilder.Entity("HamburgerMVC.Models.ExtraIngredientOrder", b =>
+                {
+                    b.Property<int>("OrderId")
+                        .HasColumnType("int");
+
+                    b.Property<int>("ExtraIngredientId")
+                        .HasColumnType("int");
+
+                    b.HasKey("OrderId", "ExtraIngredientId");
+
+                    b.HasIndex("ExtraIngredientId");
+
+                    b.ToTable("ExtraIngredientOrder");
                 });
 
             modelBuilder.Entity("HamburgerMVC.Models.Menu", b =>
@@ -145,14 +155,24 @@ namespace HamburgerMVC.Migrations
                     b.Property<decimal>("MenuPrice")
                         .HasColumnType("decimal(18,2)");
 
+                    b.HasKey("MenuId");
+
+                    b.ToTable("Menus");
+                });
+
+            modelBuilder.Entity("HamburgerMVC.Models.MenuOrder", b =>
+                {
                     b.Property<int>("OrderId")
                         .HasColumnType("int");
 
-                    b.HasKey("MenuId");
+                    b.Property<int>("MenuId")
+                        .HasColumnType("int");
 
-                    b.HasIndex("OrderId");
+                    b.HasKey("OrderId", "MenuId");
 
-                    b.ToTable("Menus");
+                    b.HasIndex("MenuId");
+
+                    b.ToTable("MenuOrder");
                 });
 
             modelBuilder.Entity("HamburgerMVC.Models.Order", b =>
@@ -211,7 +231,7 @@ namespace HamburgerMVC.Migrations
                         new
                         {
                             Id = "2c5e174e-3b0e-446f-86af-483d56fd7210",
-                            ConcurrencyStamp = "24d12852-7aac-4537-908d-d0de119e4278",
+                            ConcurrencyStamp = "3270065b-ba64-45d5-8df9-607fff445d47",
                             Name = "Manager",
                             NormalizedName = "MANAGER"
                         });
@@ -330,22 +350,40 @@ namespace HamburgerMVC.Migrations
                     b.ToTable("AspNetUserTokens", (string)null);
                 });
 
-            modelBuilder.Entity("HamburgerMVC.Models.ExtraIngredient", b =>
+            modelBuilder.Entity("HamburgerMVC.Models.ExtraIngredientOrder", b =>
                 {
+                    b.HasOne("HamburgerMVC.Models.ExtraIngredient", "ExtraIngredient")
+                        .WithMany("Orders")
+                        .HasForeignKey("ExtraIngredientId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
                     b.HasOne("HamburgerMVC.Models.Order", "Order")
                         .WithMany("ExtraIngredients")
-                        .HasForeignKey("OrderId");
+                        .HasForeignKey("OrderId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("ExtraIngredient");
 
                     b.Navigation("Order");
                 });
 
-            modelBuilder.Entity("HamburgerMVC.Models.Menu", b =>
+            modelBuilder.Entity("HamburgerMVC.Models.MenuOrder", b =>
                 {
+                    b.HasOne("HamburgerMVC.Models.Menu", "Menu")
+                        .WithMany("Orders")
+                        .HasForeignKey("MenuId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
                     b.HasOne("HamburgerMVC.Models.Order", "Order")
                         .WithMany("Menus")
                         .HasForeignKey("OrderId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
+
+                    b.Navigation("Menu");
 
                     b.Navigation("Order");
                 });
@@ -413,6 +451,16 @@ namespace HamburgerMVC.Migrations
                 });
 
             modelBuilder.Entity("HamburgerMVC.Models.AppUser", b =>
+                {
+                    b.Navigation("Orders");
+                });
+
+            modelBuilder.Entity("HamburgerMVC.Models.ExtraIngredient", b =>
+                {
+                    b.Navigation("Orders");
+                });
+
+            modelBuilder.Entity("HamburgerMVC.Models.Menu", b =>
                 {
                     b.Navigation("Orders");
                 });
