@@ -30,6 +30,8 @@ namespace HamburgerMVC.Models
             builder.Entity<AppUser>().HasData(new AppUser
             {
                 Id = "8e445865-a24d-4543-a6c6-9443d048cdb9",
+                Email = "manager007@gmail.com",
+                NormalizedEmail = "MANAGER007@GMAIL.COM",
                 UserName = "manager007",
                 NormalizedUserName = "MANAGER007",
                 PasswordHash = hasher.HashPassword(null, "Asd123..."),

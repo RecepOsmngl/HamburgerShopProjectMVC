@@ -86,7 +86,10 @@ namespace HamburgerMVC.Controllers
                     Microsoft.AspNetCore.Identity.SignInResult result = await signInManager.PasswordSignInAsync(appUser, login.Password, false, false);
                     if (result.Succeeded)
                     {
-                        return RedirectToAction("HomePage","Order");
+                        if (await userManager.IsInRoleAsync(appUser, "Customer"))
+                            return RedirectToAction("HomePage", "Order");
+                        else
+                            return RedirectToAction("HomePage", "ExtraIngredient");
                     }
                     ModelState.AddModelError("", "Invalid password or username");
                 }

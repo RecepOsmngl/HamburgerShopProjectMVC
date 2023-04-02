@@ -91,13 +91,15 @@ namespace HamburgerMVC.Migrations
                         {
                             Id = "8e445865-a24d-4543-a6c6-9443d048cdb9",
                             AccessFailedCount = 0,
-                            ConcurrencyStamp = "e2b38024-6ae9-4def-ae10-a4c5721b1669",
+                            ConcurrencyStamp = "2ab711c2-5c16-4988-b276-27353c95833c",
+                            Email = "manager007@gmail.com",
                             EmailConfirmed = false,
                             LockoutEnabled = false,
+                            NormalizedEmail = "MANAGER007@GMAIL.COM",
                             NormalizedUserName = "MANAGER007",
-                            PasswordHash = "AQAAAAEAACcQAAAAEBNG9vDNIorN4zzT/1t1Xk7FEH8iExnPBOhLgkO4Nv0DsouuUEAJZACXqOt2UEhUUw==",
+                            PasswordHash = "AQAAAAEAACcQAAAAEJUyS2RMBVMiClB4U0+X2uSpU/63Bq2ZzmHEIpMg+zxcMt/sVjMczUAZ9u6xRwLjvQ==",
                             PhoneNumberConfirmed = false,
-                            SecurityStamp = "a6d8c417-ef2f-4f98-bd70-c62e16eebd23",
+                            SecurityStamp = "f99ad133-0217-470f-b7ec-55e0e5ca69a2",
                             TwoFactorEnabled = false,
                             UserName = "manager007"
                         });
@@ -118,7 +120,7 @@ namespace HamburgerMVC.Migrations
                     b.Property<decimal>("ExtraIngredientPrice")
                         .HasColumnType("decimal(18,2)");
 
-                    b.Property<int>("OrderId")
+                    b.Property<int?>("OrderId")
                         .HasColumnType("int");
 
                     b.HasKey("ExtraIngredientId");
@@ -161,6 +163,10 @@ namespace HamburgerMVC.Migrations
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("OrderId"), 1L, 1);
 
+                    b.Property<string>("AppUserId")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(450)");
+
                     b.Property<int>("Quantity")
                         .HasColumnType("int");
 
@@ -169,6 +175,8 @@ namespace HamburgerMVC.Migrations
                         .HasColumnType("nvarchar(max)");
 
                     b.HasKey("OrderId");
+
+                    b.HasIndex("AppUserId");
 
                     b.ToTable("Orders");
                 });
@@ -203,7 +211,7 @@ namespace HamburgerMVC.Migrations
                         new
                         {
                             Id = "2c5e174e-3b0e-446f-86af-483d56fd7210",
-                            ConcurrencyStamp = "3cea4eb0-f57a-467e-ac27-c7086f0fc1ce",
+                            ConcurrencyStamp = "24d12852-7aac-4537-908d-d0de119e4278",
                             Name = "Manager",
                             NormalizedName = "MANAGER"
                         });
@@ -326,9 +334,7 @@ namespace HamburgerMVC.Migrations
                 {
                     b.HasOne("HamburgerMVC.Models.Order", "Order")
                         .WithMany("ExtraIngredients")
-                        .HasForeignKey("OrderId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
+                        .HasForeignKey("OrderId");
 
                     b.Navigation("Order");
                 });
@@ -342,6 +348,17 @@ namespace HamburgerMVC.Migrations
                         .IsRequired();
 
                     b.Navigation("Order");
+                });
+
+            modelBuilder.Entity("HamburgerMVC.Models.Order", b =>
+                {
+                    b.HasOne("HamburgerMVC.Models.AppUser", "AppUser")
+                        .WithMany("Orders")
+                        .HasForeignKey("AppUserId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("AppUser");
                 });
 
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityRoleClaim<string>", b =>
@@ -393,6 +410,11 @@ namespace HamburgerMVC.Migrations
                         .HasForeignKey("UserId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
+                });
+
+            modelBuilder.Entity("HamburgerMVC.Models.AppUser", b =>
+                {
+                    b.Navigation("Orders");
                 });
 
             modelBuilder.Entity("HamburgerMVC.Models.Order", b =>

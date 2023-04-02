@@ -30,6 +30,20 @@ namespace HamburgerMVC
                 opt.User.RequireUniqueEmail = true;
             });
 
+            //builder.Services.ConfigureApplicationCookie(
+            //    option => option.LoginPath = "/Register/Login"
+
+            //    );
+
+            //builder.Services.ConfigureApplicationCookie(
+            //    option =>
+            //    {
+            //        option.Cookie.Name = "UserCookie";
+            //        option.ExpireTimeSpan = TimeSpan.FromMinutes(5);
+            //        option.SlidingExpiration = true;
+            //    }
+
+                //);
             var app = builder.Build();
 
             // Configure the HTTP request pipeline.
