@@ -18,7 +18,8 @@ namespace HamburgerMVC.Models
         public ICollection<Menu> Menus { get; set; }
         public ICollection<ExtraIngredient> ExtraIngredients { get; set; }
         public int Quantity { get; set; }
+        public string AppUserId { get; set; }
+        public virtual AppUser AppUser { get; set; }
 
-        //public DateTime OrderDate { get; set; }
     }
 }
