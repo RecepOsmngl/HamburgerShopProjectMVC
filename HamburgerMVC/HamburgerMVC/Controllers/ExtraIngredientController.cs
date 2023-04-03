@@ -23,8 +23,13 @@ namespace HamburgerMVC.Controllers
             context = _context;
         }
         ExtraIngredientVM extraIngredientVM = new ExtraIngredientVM();
-        public IActionResult ExtraIngredientList()
+        public async Task<IActionResult> ExtraIngredientList()
         {
+            AppUser user = await userManager.GetUserAsync(HttpContext.User);
+            if (user == null)
+            {
+                return NotFound();
+            }
             extraIngredientVM.eList = context.ExtraIngredients.Select(x => new ExtraIngredientDTO()
             {
                 ExtraIngredientId = x.ExtraIngredientId,
