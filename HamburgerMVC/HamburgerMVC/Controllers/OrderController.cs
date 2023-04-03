@@ -24,7 +24,7 @@ namespace HamburgerMVC.Controllers
         }
         OrderVM orderVM = new OrderVM();
         MenuVM menuVM = new MenuVM();
-        public async Task<IActionResult> Index()
+        public async Task<IActionResult> HomePage()
         {
             var menus = await context.Menus.ToListAsync(); 
             var viewModel = menus.Select(menu => new MenuDTO
@@ -37,22 +37,43 @@ namespace HamburgerMVC.Controllers
 
             return View(viewModel);
         }
-        public async Task<IActionResult> HomePage()
+
+        public async Task<IActionResult> Details(int id)
         {
-            AppUser user = await userManager.GetUserAsync(HttpContext.User);
-            if (user == null)
-            {
-                return NotFound();
-            }
+            //var menu = await context.Menus. .GetByIdAsync(id);
 
-            var orders = await context.Orders
-                .Include(o => o.Menus)
-                .Include(o => o.ExtraIngredients)
-                .Where(o => o.AppUserId == user.Id)
-                .ToListAsync();
+            //if (menu == null)
+            //{
+            //    return NotFound();
+            //}
 
-            return View(orders);
+            //var viewModel = new MenuViewModel
+            //{
+            //    Id = menu.Id,
+            //    Name = menu.Name,
+            //    Price = menu.Price,
+            //    ImageUrl = menu.ImageUrl,
+            //    ExtraIngredients = await _extraIngredientRepository.GetAllAsync()
+            //};
+
+            return View(viewModel);
         }
+        //public async Task<IActionResult> HomePage()
+        //{
+        //    AppUser user = await userManager.GetUserAsync(HttpContext.User);
+        //    if (user == null)
+        //    {
+        //        return NotFound();
+        //    }
+
+        //    var orders = await context.Orders
+        //        .Include(o => o.Menus)
+        //        .Include(o => o.ExtraIngredients)
+        //        .Where(o => o.AppUserId == user.Id)
+        //        .ToListAsync();
+
+        //    return View(orders);
+        //}
         public async Task<IActionResult> OrderAdd()
         {
             return View(orderVM);
