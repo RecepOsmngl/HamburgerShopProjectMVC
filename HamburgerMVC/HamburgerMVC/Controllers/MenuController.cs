@@ -28,7 +28,8 @@ namespace HamburgerMVC.Controllers
             {
                 MenuId = x.MenuId,
                 MenuName = x.MenuName,
-                MenuPrice = x.MenuPrice
+                MenuPrice = x.MenuPrice,
+                //Image = x.Image
             }).ToList();
             return View(menuVM);
         }
@@ -55,6 +56,7 @@ namespace HamburgerMVC.Controllers
             Menu menu = context.Menus.Find(id);
             menu.MenuName = menuVM.Menu.MenuName;
             menu.MenuPrice = menuVM.Menu.MenuPrice;
+            //menu.Image = menuVM.Menu.Image;
             context.SaveChanges();
             return RedirectToAction("MenuList");
         }

@@ -1,4 +1,6 @@
 ﻿using HamburgerMVC.Models;
+using HamburgerMVC.Models.DTOs;
+using HamburgerMVC.Models.ViewModels;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
@@ -12,11 +14,28 @@ namespace HamburgerMVC.Controllers
     {
         private readonly Context context;
         private readonly UserManager<AppUser> userManager;
+        private readonly MenuController menuController;
 
-        public OrderController(Context _context, UserManager<AppUser> _userManager)
+        public OrderController(Context _context, UserManager<AppUser> _userManager, MenuController _menuController)
         {
             context = _context;
             userManager = _userManager;
+            menuController = _menuController;
+        }
+        OrderVM orderVM = new OrderVM();
+        MenuVM menuVM = new MenuVM();
+        public async Task<IActionResult> Index()
+        {
+            var menus = await context.Menus.ToListAsync(); 
+            var viewModel = menus.Select(menu => new MenuDTO
+            { 
+                MenuId = menu.MenuId,
+                MenuName = menu.MenuName,
+                MenuPrice = menu.MenuPrice,
+                //Image = menu.Image
+            });
+
+            return View(viewModel);
         }
         public async Task<IActionResult> HomePage()
         {
@@ -33,6 +52,30 @@ namespace HamburgerMVC.Controllers
                 .ToListAsync();
 
             return View(orders);
+        }
+        public async Task<IActionResult> OrderAdd()
+        {
+            return View(orderVM);
+        }
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        public async Task<IActionResult> OrderAdd(OrderVM orderVM)
+        {
+            if (ModelState.IsValid)
+            {
+                AppUser user = await userManager.GetUserAsync(HttpContext.User);
+                if (user == null)
+                {
+                    return NotFound();
+                }
+
+                orderVM.Order.AppUserId = user.Id;
+
+                context.Add(orderVM);
+                await context.SaveChangesAsync();
+                return RedirectToAction("HomePage");
+            }
+            return View(orderVM);
         }
         public IActionResult Index()
         {
