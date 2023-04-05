@@ -10,5 +10,6 @@
         public string ExtraIngredientName { get; set; }
         public decimal ExtraIngredientPrice { get; set; }
         public ICollection<ExtraIngredientOrder> Orders { get; set; }
+        public bool Selected { get; set; }
     }
 }

@@ -1,0 +1,42 @@
+﻿@using HamburgerMVC.Models.DTOs;
+@model List<Order>
+
+    
+@{
+    Layout = "_OrderCartLayout";
+}
+<h1>Order List</h1>
+
+<table class="table table-hover table-striped table-bordered">
+    <thead>
+        <tr>
+            <th>Order ID</th>
+            <th>Size</th>
+            <th>Quantity</th>
+            <th>Extra Ingredients</th>
+            <th>Menus</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var order in Model)
+        {
+            <tr>
+                <td>@order.OrderId</td>
+                <td>@order.Size</td>
+                <td>@order.Quantity</td>
+                <td>
+                    @*@foreach (var ingredient in order.ExtraIngredients)
+                    {*@
+                        <span>@order.ExtraIngredients</span>
+                    @*}*@
+                </td>
+                <td>
+                    @*@foreach (var menu in order.Menus)
+                    {*@
+                        <span>@order.Menus</span>
+                    @*}*@
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

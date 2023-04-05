@@ -12,12 +12,12 @@ namespace HamburgerMVC.Repositories
         {
             _dbContext = dbContext;
         }
-        public Task<IEnumerable<Menu>> GetAllAsync()
+        public async Task<IEnumerable<Menu>> GetAllAsync()
         {
             return await _dbContext.Menus.ToListAsync();
         }
 
-        public Task<Menu> GetByIdAsync(int id)
+        public async Task<Menu> GetByIdAsync(int id)
         {
             return await _dbContext.Menus.FindAsync(id);
         }

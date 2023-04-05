@@ -8369,12 +8369,1020 @@
       "PackagePath": "staticwebassets\\AdminLTE-3.0.4\\starter.html"
     },
     {
-      "Id": "C:\\Users\\dogus\\OneDrive\\Masaüstü\\gitProjeler\\HamburgerShop\\HamburgerMVC\\HamburgerMVC\\wwwroot\\css\\site.css",
-      "PackagePath": "staticwebassets\\css\\site.css"
+      "Id": "C:\\Users\\dogus\\OneDrive\\Masaüstü\\gitProjeler\\HamburgerShop\\HamburgerMVC\\HamburgerMVC\\wwwroot\\burger-master.rar",
+      "PackagePath": "staticwebassets\\burger-master.rar"
     },
     {
-      "Id": "C:\\Users\\dogus\\OneDrive\\Masaüstü\\gitProjeler\\HamburgerShop\\HamburgerMVC\\HamburgerMVC\\wwwroot\\favicon.ico",
-      "PackagePath": "staticwebassets\\favicon.ico"
+      "Id": "C:\\Users\\dogus\\OneDrive\\Masaüstü\\gitProjeler\\HamburgerShop\\HamburgerMVC\\HamburgerMVC\\wwwroot\\burger-master\\Menu.html",
+      "PackagePath": "staticwebassets\\burger-master\\Menu.html"
+    },
+    {
+      "Id": "C:\\Users\\dogus\\OneDrive\\Masaüstü\\gitProjeler\\HamburgerShop\\HamburgerMVC\\HamburgerMVC\\wwwroot\\burger-master\\about.html",
+      "PackagePath": "staticwebassets\\burger-master\\about.html"
+    },
+    {
+      "Id": "C:\\Users\\dogus\\OneDrive\\Masaüstü\\gitProjeler\\HamburgerShop\\HamburgerMVC\\HamburgerMVC\\wwwroot\\burger-master\\blog.html",
+      "PackagePath": "staticwebassets\\burger-master\\blog.html"
+    },
+    {
+      "Id": "C:\\Users\\dogus\\OneDrive\\Masaüstü\\gitProjeler\\HamburgerShop\\HamburgerMVC\\HamburgerMVC\\wwwroot\\burger-master\\burger Doc\\css\\font-awesome.min.css",
+      "PackagePath": "staticwebassets\\burger-master\\burger Doc\\css\\font-awesome.min.css"
+    },
+    {
+      "Id": "C:\\Users\\dogus\\OneDrive\\Masaüstü\\gitProjeler\\HamburgerShop\\HamburgerMVC\\HamburgerMVC\\wwwroot\\burger-master\\burger Doc\\css\\main.css",
+      "PackagePath": "staticwebassets\\burger-master\\burger Doc\\css\\main.css"
+    },
+    {
+      "Id": "C:\\Users\\dogus\\OneDrive\\Masaüstü\\gitProjeler\\HamburgerShop\\HamburgerMVC\\HamburgerMVC\\wwwroot\\burger-master\\burger Doc\\css\\normalize.min.css",
+      "PackagePath": "staticwebassets\\burger-master\\burger Doc\\css\\normalize.min.css"
+    },
+    {
+      "Id": "C:\\Users\\dogus\\OneDrive\\Masaüstü\\gitProjeler\\HamburgerShop\\HamburgerMVC\\HamburgerMVC\\wwwroot\\burger-master\\burger Doc\\fonts\\FontAwesome.otf",
+      "PackagePath": "staticwebassets\\burger-master\\burger Doc\\fonts\\FontAwesome.otf"
+    },
+    {
+      "Id": "C:\\Users\\dogus\\OneDrive\\Masaüstü\\gitProjeler\\HamburgerShop\\HamburgerMVC\\HamburgerMVC\\wwwroot\\burger-master\\burger Doc\\fonts\\fontawesome-webfont.eot",
+      "PackagePath": "staticwebassets\\burger-master\\burger Doc\\fonts\\fontawesome-webfont.eot"
+    },
+    {
+      "Id": "C:\\Users\\dogus\\OneDrive\\Masaüstü\\gitProjeler\\HamburgerShop\\HamburgerMVC\\HamburgerMVC\\wwwroot\\burger-master\\burger Doc\\fonts\\fontawesome-webfont.svg",
+      "PackagePath": "staticwebassets\\burger-master\\burger Doc\\fonts\\fontawesome-webfont.svg"
+    },
+    {
+      "Id": "C:\\Users\\dogus\\OneDrive\\Masaüstü\\gitProjeler\\HamburgerShop\\HamburgerMVC\\HamburgerMVC\\wwwroot\\burger-master\\burger Doc\\fonts\\fontawesome-webfont.ttf",
+      "PackagePath": "staticwebassets\\burger-master\\burger Doc\\fonts\\fontawesome-webfont.ttf"
+    },
+    {
+      "Id": "C:\\Users\\dogus\\OneDrive\\Masaüstü\\gitProjeler\\HamburgerShop\\HamburgerMVC\\HamburgerMVC\\wwwroot\\burger-master\\burger Doc\\fonts\\fontawesome-webfont.woff",
+      "PackagePath": "staticwebassets\\burger-master\\burger Doc\\fonts\\fontawesome-webfont.woff"
+    },
+    {
+      "Id": "C:\\Users\\dogus\\OneDrive\\Masaüstü\\gitProjeler\\HamburgerShop\\HamburgerMVC\\HamburgerMVC\\wwwroot\\burger-master\\burger Doc\\img\\logo.png",
+      "PackagePath": "staticwebassets\\burger-master\\burger Doc\\img\\logo.png"
+    },
+    {
+      "Id": "C:\\Users\\dogus\\OneDrive\\Masaüstü\\gitProjeler\\HamburgerShop\\HamburgerMVC\\HamburgerMVC\\wwwroot\\burger-master\\burger Doc\\index.html",
+      "PackagePath": "staticwebassets\\burger-master\\burger Doc\\index.html"
+    },
+    {
+      "Id": "C:\\Users\\dogus\\OneDrive\\Masaüstü\\gitProjeler\\HamburgerShop\\HamburgerMVC\\HamburgerMVC\\wwwroot\\burger-master\\burger Doc\\js\\custom.js",
+      "PackagePath": "staticwebassets\\burger-master\\burger Doc\\js\\custom.js"
+    },
+    {
+      "Id": "C:\\Users\\dogus\\OneDrive\\Masaüstü\\gitProjeler\\HamburgerShop\\HamburgerMVC\\HamburgerMVC\\wwwroot\\burger-master\\burger Doc\\js\\jquery-1.11.0.min.js",
+      "PackagePath": "staticwebassets\\burger-master\\burger Doc\\js\\jquery-1.11.0.min.js"
+    },
+    {
+      "Id": "C:\\Users\\dogus\\OneDrive\\Masaüstü\\gitProjeler\\HamburgerShop\\HamburgerMVC\\HamburgerMVC\\wwwroot\\burger-master\\burger Doc\\js\\jquery.nav.js",
+      "PackagePath": "staticwebassets\\burger-master\\burger Doc\\js\\jquery.nav.js"
+    },
+    {
+      "Id": "C:\\Users\\dogus\\OneDrive\\Masaüstü\\gitProjeler\\HamburgerShop\\HamburgerMVC\\HamburgerMVC\\wwwroot\\burger-master\\burger Doc\\syntax-highlighter\\scripts\\shAutoloader.js",
+      "PackagePath": "staticwebassets\\burger-master\\burger Doc\\syntax-highlighter\\scripts\\shAutoloader.js"
+    },
+    {
+      "Id": "C:\\Users\\dogus\\OneDrive\\Masaüstü\\gitProjeler\\HamburgerShop\\HamburgerMVC\\HamburgerMVC\\wwwroot\\burger-master\\burger Doc\\syntax-highlighter\\scripts\\shBrushAS3.js",
+      "PackagePath": "staticwebassets\\burger-master\\burger Doc\\syntax-highlighter\\scripts\\shBrushAS3.js"
+    },
+    {
+      "Id": "C:\\Users\\dogus\\OneDrive\\Masaüstü\\gitProjeler\\HamburgerShop\\HamburgerMVC\\HamburgerMVC\\wwwroot\\burger-master\\burger Doc\\syntax-highlighter\\scripts\\shBrushAppleScript.js",
+      "PackagePath": "staticwebassets\\burger-master\\burger Doc\\syntax-highlighter\\scripts\\shBrushAppleScript.js"
+    },
+    {
+      "Id": "C:\\Users\\dogus\\OneDrive\\Masaüstü\\gitProjeler\\HamburgerShop\\HamburgerMVC\\HamburgerMVC\\wwwroot\\burger-master\\burger Doc\\syntax-highlighter\\scripts\\shBrushBash.js",
+      "PackagePath": "staticwebassets\\burger-master\\burger Doc\\syntax-highlighter\\scripts\\shBrushBash.js"
+    },
+    {
+      "Id": "C:\\Users\\dogus\\OneDrive\\Masaüstü\\gitProjeler\\HamburgerShop\\HamburgerMVC\\HamburgerMVC\\wwwroot\\burger-master\\burger Doc\\syntax-highlighter\\scripts\\shBrushCSharp.js",
+      "PackagePath": "staticwebassets\\burger-master\\burger Doc\\syntax-highlighter\\scripts\\shBrushCSharp.js"
+    },
+    {
+      "Id": "C:\\Users\\dogus\\OneDrive\\Masaüstü\\gitProjeler\\HamburgerShop\\HamburgerMVC\\HamburgerMVC\\wwwroot\\burger-master\\burger Doc\\syntax-highlighter\\scripts\\shBrushColdFusion.js",
+      "PackagePath": "staticwebassets\\burger-master\\burger Doc\\syntax-highlighter\\scripts\\shBrushColdFusion.js"
+    },
+    {
+      "Id": "C:\\Users\\dogus\\OneDrive\\Masaüstü\\gitProjeler\\HamburgerShop\\HamburgerMVC\\HamburgerMVC\\wwwroot\\burger-master\\burger Doc\\syntax-highlighter\\scripts\\shBrushCpp.js",
+      "PackagePath": "staticwebassets\\burger-master\\burger Doc\\syntax-highlighter\\scripts\\shBrushCpp.js"
+    },
+    {
+      "Id": "C:\\Users\\dogus\\OneDrive\\Masaüstü\\gitProjeler\\HamburgerShop\\HamburgerMVC\\HamburgerMVC\\wwwroot\\burger-master\\burger Doc\\syntax-highlighter\\scripts\\shBrushCss.js",
+      "PackagePath": "staticwebassets\\burger-master\\burger Doc\\syntax-highlighter\\scripts\\shBrushCss.js"
+    },
+    {
+      "Id": "C:\\Users\\dogus\\OneDrive\\Masaüstü\\gitProjeler\\HamburgerShop\\HamburgerMVC\\HamburgerMVC\\wwwroot\\burger-master\\burger Doc\\syntax-highlighter\\scripts\\shBrushDelphi.js",
+      "PackagePath": "staticwebassets\\burger-master\\burger Doc\\syntax-highlighter\\scripts\\shBrushDelphi.js"
+    },
+    {
+      "Id": "C:\\Users\\dogus\\OneDrive\\Masaüstü\\gitProjeler\\HamburgerShop\\HamburgerMVC\\HamburgerMVC\\wwwroot\\burger-master\\burger Doc\\syntax-highlighter\\scripts\\shBrushDiff.js",
+      "PackagePath": "staticwebassets\\burger-master\\burger Doc\\syntax-highlighter\\scripts\\shBrushDiff.js"
+    },
+    {
+      "Id": "C:\\Users\\dogus\\OneDrive\\Masaüstü\\gitProjeler\\HamburgerShop\\HamburgerMVC\\HamburgerMVC\\wwwroot\\burger-master\\burger Doc\\syntax-highlighter\\scripts\\shBrushErlang.js",
+      "PackagePath": "staticwebassets\\burger-master\\burger Doc\\syntax-highlighter\\scripts\\shBrushErlang.js"
+    },
+    {
+      "Id": "C:\\Users\\dogus\\OneDrive\\Masaüstü\\gitProjeler\\HamburgerShop\\HamburgerMVC\\HamburgerMVC\\wwwroot\\burger-master\\burger Doc\\syntax-highlighter\\scripts\\shBrushGroovy.js",
+      "PackagePath": "staticwebassets\\burger-master\\burger Doc\\syntax-highlighter\\scripts\\shBrushGroovy.js"
+    },
+    {
+      "Id": "C:\\Users\\dogus\\OneDrive\\Masaüstü\\gitProjeler\\HamburgerShop\\HamburgerMVC\\HamburgerMVC\\wwwroot\\burger-master\\burger Doc\\syntax-highlighter\\scripts\\shBrushJScript.js",
+      "PackagePath": "staticwebassets\\burger-master\\burger Doc\\syntax-highlighter\\scripts\\shBrushJScript.js"
+    },
+    {
+      "Id": "C:\\Users\\dogus\\OneDrive\\Masaüstü\\gitProjeler\\HamburgerShop\\HamburgerMVC\\HamburgerMVC\\wwwroot\\burger-master\\burger Doc\\syntax-highlighter\\scripts\\shBrushJava.js",
+      "PackagePath": "staticwebassets\\burger-master\\burger Doc\\syntax-highlighter\\scripts\\shBrushJava.js"
+    },
+    {
+      "Id": "C:\\Users\\dogus\\OneDrive\\Masaüstü\\gitProjeler\\HamburgerShop\\HamburgerMVC\\HamburgerMVC\\wwwroot\\burger-master\\burger Doc\\syntax-highlighter\\scripts\\shBrushJavaFX.js",
+      "PackagePath": "staticwebassets\\burger-master\\burger Doc\\syntax-highlighter\\scripts\\shBrushJavaFX.js"
+    },
+    {
+      "Id": "C:\\Users\\dogus\\OneDrive\\Masaüstü\\gitProjeler\\HamburgerShop\\HamburgerMVC\\HamburgerMVC\\wwwroot\\burger-master\\burger Doc\\syntax-highlighter\\scripts\\shBrushPerl.js",
+      "PackagePath": "staticwebassets\\burger-master\\burger Doc\\syntax-highlighter\\scripts\\shBrushPerl.js"
+    },
+    {
+      "Id": "C:\\Users\\dogus\\OneDrive\\Masaüstü\\gitProjeler\\HamburgerShop\\HamburgerMVC\\HamburgerMVC\\wwwroot\\burger-master\\burger Doc\\syntax-highlighter\\scripts\\shBrushPhp.js",
+      "PackagePath": "staticwebassets\\burger-master\\burger Doc\\syntax-highlighter\\scripts\\shBrushPhp.js"
+    },
+    {
+      "Id": "C:\\Users\\dogus\\OneDrive\\Masaüstü\\gitProjeler\\HamburgerShop\\HamburgerMVC\\HamburgerMVC\\wwwroot\\burger-master\\burger Doc\\syntax-highlighter\\scripts\\shBrushPlain.js",
+      "PackagePath": "staticwebassets\\burger-master\\burger Doc\\syntax-highlighter\\scripts\\shBrushPlain.js"
+    },
+    {
+      "Id": "C:\\Users\\dogus\\OneDrive\\Masaüstü\\gitProjeler\\HamburgerShop\\HamburgerMVC\\HamburgerMVC\\wwwroot\\burger-master\\burger Doc\\syntax-highlighter\\scripts\\shBrushPowerShell.js",
+      "PackagePath": "staticwebassets\\burger-master\\burger Doc\\syntax-highlighter\\scripts\\shBrushPowerShell.js"
+    },
+    {
+      "Id": "C:\\Users\\dogus\\OneDrive\\Masaüstü\\gitProjeler\\HamburgerShop\\HamburgerMVC\\HamburgerMVC\\wwwroot\\burger-master\\burger Doc\\syntax-highlighter\\scripts\\shBrushPython.js",
+      "PackagePath": "staticwebassets\\burger-master\\burger Doc\\syntax-highlighter\\scripts\\shBrushPython.js"
+    },
+    {
+      "Id": "C:\\Users\\dogus\\OneDrive\\Masaüstü\\gitProjeler\\HamburgerShop\\HamburgerMVC\\HamburgerMVC\\wwwroot\\burger-master\\burger Doc\\syntax-highlighter\\scripts\\shBrushRuby.js",
+      "PackagePath": "staticwebassets\\burger-master\\burger Doc\\syntax-highlighter\\scripts\\shBrushRuby.js"
+    },
+    {
+      "Id": "C:\\Users\\dogus\\OneDrive\\Masaüstü\\gitProjeler\\HamburgerShop\\HamburgerMVC\\HamburgerMVC\\wwwroot\\burger-master\\burger Doc\\syntax-highlighter\\scripts\\shBrushSass.js",
+      "PackagePath": "staticwebassets\\burger-master\\burger Doc\\syntax-highlighter\\scripts\\shBrushSass.js"
+    },
+    {
+      "Id": "C:\\Users\\dogus\\OneDrive\\Masaüstü\\gitProjeler\\HamburgerShop\\HamburgerMVC\\HamburgerMVC\\wwwroot\\burger-master\\burger Doc\\syntax-highlighter\\scripts\\shBrushScala.js",
+      "PackagePath": "staticwebassets\\burger-master\\burger Doc\\syntax-highlighter\\scripts\\shBrushScala.js"
+    },
+    {
+      "Id": "C:\\Users\\dogus\\OneDrive\\Masaüstü\\gitProjeler\\HamburgerShop\\HamburgerMVC\\HamburgerMVC\\wwwroot\\burger-master\\burger Doc\\syntax-highlighter\\scripts\\shBrushSql.js",
+      "PackagePath": "staticwebassets\\burger-master\\burger Doc\\syntax-highlighter\\scripts\\shBrushSql.js"
+    },
+    {
+      "Id": "C:\\Users\\dogus\\OneDrive\\Masaüstü\\gitProjeler\\HamburgerShop\\HamburgerMVC\\HamburgerMVC\\wwwroot\\burger-master\\burger Doc\\syntax-highlighter\\scripts\\shBrushVb.js",
+      "PackagePath": "staticwebassets\\burger-master\\burger Doc\\syntax-highlighter\\scripts\\shBrushVb.js"
+    },
+    {
+      "Id": "C:\\Users\\dogus\\OneDrive\\Masaüstü\\gitProjeler\\HamburgerShop\\HamburgerMVC\\HamburgerMVC\\wwwroot\\burger-master\\burger Doc\\syntax-highlighter\\scripts\\shBrushXml.js",
+      "PackagePath": "staticwebassets\\burger-master\\burger Doc\\syntax-highlighter\\scripts\\shBrushXml.js"
+    },
+    {
+      "Id": "C:\\Users\\dogus\\OneDrive\\Masaüstü\\gitProjeler\\HamburgerShop\\HamburgerMVC\\HamburgerMVC\\wwwroot\\burger-master\\burger Doc\\syntax-highlighter\\scripts\\shLegacy.js",
+      "PackagePath": "staticwebassets\\burger-master\\burger Doc\\syntax-highlighter\\scripts\\shLegacy.js"
+    },
+    {
+      "Id": "C:\\Users\\dogus\\OneDrive\\Masaüstü\\gitProjeler\\HamburgerShop\\HamburgerMVC\\HamburgerMVC\\wwwroot\\burger-master\\burger Doc\\syntax-highlighter\\styles\\shCore.css",
+      "PackagePath": "staticwebassets\\burger-master\\burger Doc\\syntax-highlighter\\styles\\shCore.css"
+    },
+    {
+      "Id": "C:\\Users\\dogus\\OneDrive\\Masaüstü\\gitProjeler\\HamburgerShop\\HamburgerMVC\\HamburgerMVC\\wwwroot\\burger-master\\burger Doc\\syntax-highlighter\\styles\\shCoreDefault.css",
+      "PackagePath": "staticwebassets\\burger-master\\burger Doc\\syntax-highlighter\\styles\\shCoreDefault.css"
+    },
+    {
+      "Id": "C:\\Users\\dogus\\OneDrive\\Masaüstü\\gitProjeler\\HamburgerShop\\HamburgerMVC\\HamburgerMVC\\wwwroot\\burger-master\\burger Doc\\syntax-highlighter\\styles\\shCoreDjango.css",
+      "PackagePath": "staticwebassets\\burger-master\\burger Doc\\syntax-highlighter\\styles\\shCoreDjango.css"
+    },
+    {
+      "Id": "C:\\Users\\dogus\\OneDrive\\Masaüstü\\gitProjeler\\HamburgerShop\\HamburgerMVC\\HamburgerMVC\\wwwroot\\burger-master\\burger Doc\\syntax-highlighter\\styles\\shCoreEclipse.css",
+      "PackagePath": "staticwebassets\\burger-master\\burger Doc\\syntax-highlighter\\styles\\shCoreEclipse.css"
+    },
+    {
+      "Id": "C:\\Users\\dogus\\OneDrive\\Masaüstü\\gitProjeler\\HamburgerShop\\HamburgerMVC\\HamburgerMVC\\wwwroot\\burger-master\\burger Doc\\syntax-highlighter\\styles\\shCoreEmacs.css",
+      "PackagePath": "staticwebassets\\burger-master\\burger Doc\\syntax-highlighter\\styles\\shCoreEmacs.css"
+    },
+    {
+      "Id": "C:\\Users\\dogus\\OneDrive\\Masaüstü\\gitProjeler\\HamburgerShop\\HamburgerMVC\\HamburgerMVC\\wwwroot\\burger-master\\burger Doc\\syntax-highlighter\\styles\\shCoreFadeToGrey.css",
+      "PackagePath": "staticwebassets\\burger-master\\burger Doc\\syntax-highlighter\\styles\\shCoreFadeToGrey.css"
+    },
+    {
+      "Id": "C:\\Users\\dogus\\OneDrive\\Masaüstü\\gitProjeler\\HamburgerShop\\HamburgerMVC\\HamburgerMVC\\wwwroot\\burger-master\\burger Doc\\syntax-highlighter\\styles\\shCoreMDUltra.css",
+      "PackagePath": "staticwebassets\\burger-master\\burger Doc\\syntax-highlighter\\styles\\shCoreMDUltra.css"
+    },
+    {
+      "Id": "C:\\Users\\dogus\\OneDrive\\Masaüstü\\gitProjeler\\HamburgerShop\\HamburgerMVC\\HamburgerMVC\\wwwroot\\burger-master\\burger Doc\\syntax-highlighter\\styles\\shCoreMidnight.css",
+      "PackagePath": "staticwebassets\\burger-master\\burger Doc\\syntax-highlighter\\styles\\shCoreMidnight.css"
+    },
+    {
+      "Id": "C:\\Users\\dogus\\OneDrive\\Masaüstü\\gitProjeler\\HamburgerShop\\HamburgerMVC\\HamburgerMVC\\wwwroot\\burger-master\\burger Doc\\syntax-highlighter\\styles\\shCoreRDark.css",
+      "PackagePath": "staticwebassets\\burger-master\\burger Doc\\syntax-highlighter\\styles\\shCoreRDark.css"
+    },
+    {
+      "Id": "C:\\Users\\dogus\\OneDrive\\Masaüstü\\gitProjeler\\HamburgerShop\\HamburgerMVC\\HamburgerMVC\\wwwroot\\burger-master\\burger Doc\\syntax-highlighter\\styles\\shThemeDefault.css",
+      "PackagePath": "staticwebassets\\burger-master\\burger Doc\\syntax-highlighter\\styles\\shThemeDefault.css"
+    },
+    {
+      "Id": "C:\\Users\\dogus\\OneDrive\\Masaüstü\\gitProjeler\\HamburgerShop\\HamburgerMVC\\HamburgerMVC\\wwwroot\\burger-master\\burger Doc\\syntax-highlighter\\styles\\shThemeDjango.css",
+      "PackagePath": "staticwebassets\\burger-master\\burger Doc\\syntax-highlighter\\styles\\shThemeDjango.css"
+    },
+    {
+      "Id": "C:\\Users\\dogus\\OneDrive\\Masaüstü\\gitProjeler\\HamburgerShop\\HamburgerMVC\\HamburgerMVC\\wwwroot\\burger-master\\burger Doc\\syntax-highlighter\\styles\\shThemeEclipse.css",
+      "PackagePath": "staticwebassets\\burger-master\\burger Doc\\syntax-highlighter\\styles\\shThemeEclipse.css"
+    },
+    {
+      "Id": "C:\\Users\\dogus\\OneDrive\\Masaüstü\\gitProjeler\\HamburgerShop\\HamburgerMVC\\HamburgerMVC\\wwwroot\\burger-master\\burger Doc\\syntax-highlighter\\styles\\shThemeEmacs.css",
+      "PackagePath": "staticwebassets\\burger-master\\burger Doc\\syntax-highlighter\\styles\\shThemeEmacs.css"
+    },
+    {
+      "Id": "C:\\Users\\dogus\\OneDrive\\Masaüstü\\gitProjeler\\HamburgerShop\\HamburgerMVC\\HamburgerMVC\\wwwroot\\burger-master\\burger Doc\\syntax-highlighter\\styles\\shThemeFadeToGrey.css",
+      "PackagePath": "staticwebassets\\burger-master\\burger Doc\\syntax-highlighter\\styles\\shThemeFadeToGrey.css"
+    },
+    {
+      "Id": "C:\\Users\\dogus\\OneDrive\\Masaüstü\\gitProjeler\\HamburgerShop\\HamburgerMVC\\HamburgerMVC\\wwwroot\\burger-master\\burger Doc\\syntax-highlighter\\styles\\shThemeMDUltra.css",
+      "PackagePath": "staticwebassets\\burger-master\\burger Doc\\syntax-highlighter\\styles\\shThemeMDUltra.css"
+    },
+    {
+      "Id": "C:\\Users\\dogus\\OneDrive\\Masaüstü\\gitProjeler\\HamburgerShop\\HamburgerMVC\\HamburgerMVC\\wwwroot\\burger-master\\burger Doc\\syntax-highlighter\\styles\\shThemeMidnight.css",
+      "PackagePath": "staticwebassets\\burger-master\\burger Doc\\syntax-highlighter\\styles\\shThemeMidnight.css"
+    },
+    {
+      "Id": "C:\\Users\\dogus\\OneDrive\\Masaüstü\\gitProjeler\\HamburgerShop\\HamburgerMVC\\HamburgerMVC\\wwwroot\\burger-master\\burger Doc\\syntax-highlighter\\styles\\shThemeRDark.css",
+      "PackagePath": "staticwebassets\\burger-master\\burger Doc\\syntax-highlighter\\styles\\shThemeRDark.css"
+    },
+    {
+      "Id": "C:\\Users\\dogus\\OneDrive\\Masaüstü\\gitProjeler\\HamburgerShop\\HamburgerMVC\\HamburgerMVC\\wwwroot\\burger-master\\contact.html",
+      "PackagePath": "staticwebassets\\burger-master\\contact.html"
+    },
+    {
+      "Id": "C:\\Users\\dogus\\OneDrive\\Masaüstü\\gitProjeler\\HamburgerShop\\HamburgerMVC\\HamburgerMVC\\wwwroot\\burger-master\\contact_process.php",
+      "PackagePath": "staticwebassets\\burger-master\\contact_process.php"
+    },
+    {
+      "Id": "C:\\Users\\dogus\\OneDrive\\Masaüstü\\gitProjeler\\HamburgerShop\\HamburgerMVC\\HamburgerMVC\\wwwroot\\burger-master\\css\\animate.css",
+      "PackagePath": "staticwebassets\\burger-master\\css\\animate.css"
+    },
+    {
+      "Id": "C:\\Users\\dogus\\OneDrive\\Masaüstü\\gitProjeler\\HamburgerShop\\HamburgerMVC\\HamburgerMVC\\wwwroot\\burger-master\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\burger-master\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\dogus\\OneDrive\\Masaüstü\\gitProjeler\\HamburgerShop\\HamburgerMVC\\HamburgerMVC\\wwwroot\\burger-master\\css\\flaticon.css",
+      "PackagePath": "staticwebassets\\burger-master\\css\\flaticon.css"
+    },
+    {
+      "Id": "C:\\Users\\dogus\\OneDrive\\Masaüstü\\gitProjeler\\HamburgerShop\\HamburgerMVC\\HamburgerMVC\\wwwroot\\burger-master\\css\\font-awesome.min.css",
+      "PackagePath": "staticwebassets\\burger-master\\css\\font-awesome.min.css"
+    },
+    {
+      "Id": "C:\\Users\\dogus\\OneDrive\\Masaüstü\\gitProjeler\\HamburgerShop\\HamburgerMVC\\HamburgerMVC\\wwwroot\\burger-master\\css\\jquery-ui.css",
+      "PackagePath": "staticwebassets\\burger-master\\css\\jquery-ui.css"
+    },
+    {
+      "Id": "C:\\Users\\dogus\\OneDrive\\Masaüstü\\gitProjeler\\HamburgerShop\\HamburgerMVC\\HamburgerMVC\\wwwroot\\burger-master\\css\\magnific-popup.css",
+      "PackagePath": "staticwebassets\\burger-master\\css\\magnific-popup.css"
+    },
+    {
+      "Id": "C:\\Users\\dogus\\OneDrive\\Masaüstü\\gitProjeler\\HamburgerShop\\HamburgerMVC\\HamburgerMVC\\wwwroot\\burger-master\\css\\nice-select.css",
+      "PackagePath": "staticwebassets\\burger-master\\css\\nice-select.css"
+    },
+    {
+      "Id": "C:\\Users\\dogus\\OneDrive\\Masaüstü\\gitProjeler\\HamburgerShop\\HamburgerMVC\\HamburgerMVC\\wwwroot\\burger-master\\css\\owl.carousel.min.css",
+      "PackagePath": "staticwebassets\\burger-master\\css\\owl.carousel.min.css"
+    },
+    {
+      "Id": "C:\\Users\\dogus\\OneDrive\\Masaüstü\\gitProjeler\\HamburgerShop\\HamburgerMVC\\HamburgerMVC\\wwwroot\\burger-master\\css\\slicknav.css",
+      "PackagePath": "staticwebassets\\burger-master\\css\\slicknav.css"
+    },
+    {
+      "Id": "C:\\Users\\dogus\\OneDrive\\Masaüstü\\gitProjeler\\HamburgerShop\\HamburgerMVC\\HamburgerMVC\\wwwroot\\burger-master\\css\\style.css",
+      "PackagePath": "staticwebassets\\burger-master\\css\\style.css"
+    },
+    {
+      "Id": "C:\\Users\\dogus\\OneDrive\\Masaüstü\\gitProjeler\\HamburgerShop\\HamburgerMVC\\HamburgerMVC\\wwwroot\\burger-master\\css\\style.map",
+      "PackagePath": "staticwebassets\\burger-master\\css\\style.map"
+    },
+    {
+      "Id": "C:\\Users\\dogus\\OneDrive\\Masaüstü\\gitProjeler\\HamburgerShop\\HamburgerMVC\\HamburgerMVC\\wwwroot\\burger-master\\css\\theme-default.css",
+      "PackagePath": "staticwebassets\\burger-master\\css\\theme-default.css"
+    },
+    {
+      "Id": "C:\\Users\\dogus\\OneDrive\\Masaüstü\\gitProjeler\\HamburgerShop\\HamburgerMVC\\HamburgerMVC\\wwwroot\\burger-master\\css\\theme-default.map",
+      "PackagePath": "staticwebassets\\burger-master\\css\\theme-default.map"
+    },
+    {
+      "Id": "C:\\Users\\dogus\\OneDrive\\Masaüstü\\gitProjeler\\HamburgerShop\\HamburgerMVC\\HamburgerMVC\\wwwroot\\burger-master\\css\\themify-icons.css",
+      "PackagePath": "staticwebassets\\burger-master\\css\\themify-icons.css"
+    },
+    {
+      "Id": "C:\\Users\\dogus\\OneDrive\\Masaüstü\\gitProjeler\\HamburgerShop\\HamburgerMVC\\HamburgerMVC\\wwwroot\\burger-master\\elements.html",
+      "PackagePath": "staticwebassets\\burger-master\\elements.html"
+    },
+    {
+      "Id": "C:\\Users\\dogus\\OneDrive\\Masaüstü\\gitProjeler\\HamburgerShop\\HamburgerMVC\\HamburgerMVC\\wwwroot\\burger-master\\fonts\\Flaticon.eot",
+      "PackagePath": "staticwebassets\\burger-master\\fonts\\Flaticon.eot"
+    },
+    {
+      "Id": "C:\\Users\\dogus\\OneDrive\\Masaüstü\\gitProjeler\\HamburgerShop\\HamburgerMVC\\HamburgerMVC\\wwwroot\\burger-master\\fonts\\Flaticon.svg",
+      "PackagePath": "staticwebassets\\burger-master\\fonts\\Flaticon.svg"
+    },
+    {
+      "Id": "C:\\Users\\dogus\\OneDrive\\Masaüstü\\gitProjeler\\HamburgerShop\\HamburgerMVC\\HamburgerMVC\\wwwroot\\burger-master\\fonts\\Flaticon.ttf",
+      "PackagePath": "staticwebassets\\burger-master\\fonts\\Flaticon.ttf"
+    },
+    {
+      "Id": "C:\\Users\\dogus\\OneDrive\\Masaüstü\\gitProjeler\\HamburgerShop\\HamburgerMVC\\HamburgerMVC\\wwwroot\\burger-master\\fonts\\Flaticon.woff",
+      "PackagePath": "staticwebassets\\burger-master\\fonts\\Flaticon.woff"
+    },
+    {
+      "Id": "C:\\Users\\dogus\\OneDrive\\Masaüstü\\gitProjeler\\HamburgerShop\\HamburgerMVC\\HamburgerMVC\\wwwroot\\burger-master\\fonts\\Flaticon.woff2",
+      "PackagePath": "staticwebassets\\burger-master\\fonts\\Flaticon.woff2"
+    },
+    {
+      "Id": "C:\\Users\\dogus\\OneDrive\\Masaüstü\\gitProjeler\\HamburgerShop\\HamburgerMVC\\HamburgerMVC\\wwwroot\\burger-master\\fonts\\FontAwesome.otf",
+      "PackagePath": "staticwebassets\\burger-master\\fonts\\FontAwesome.otf"
+    },
+    {
+      "Id": "C:\\Users\\dogus\\OneDrive\\Masaüstü\\gitProjeler\\HamburgerShop\\HamburgerMVC\\HamburgerMVC\\wwwroot\\burger-master\\fonts\\fa-brands-400.eot",
+      "PackagePath": "staticwebassets\\burger-master\\fonts\\fa-brands-400.eot"
+    },
+    {
+      "Id": "C:\\Users\\dogus\\OneDrive\\Masaüstü\\gitProjeler\\HamburgerShop\\HamburgerMVC\\HamburgerMVC\\wwwroot\\burger-master\\fonts\\fa-brands-400.svg",
+      "PackagePath": "staticwebassets\\burger-master\\fonts\\fa-brands-400.svg"
+    },
+    {
+      "Id": "C:\\Users\\dogus\\OneDrive\\Masaüstü\\gitProjeler\\HamburgerShop\\HamburgerMVC\\HamburgerMVC\\wwwroot\\burger-master\\fonts\\fa-brands-400.ttf",
+      "PackagePath": "staticwebassets\\burger-master\\fonts\\fa-brands-400.ttf"
+    },
+    {
+      "Id": "C:\\Users\\dogus\\OneDrive\\Masaüstü\\gitProjeler\\HamburgerShop\\HamburgerMVC\\HamburgerMVC\\wwwroot\\burger-master\\fonts\\fa-brands-400.woff",
+      "PackagePath": "staticwebassets\\burger-master\\fonts\\fa-brands-400.woff"
+    },
+    {
+      "Id": "C:\\Users\\dogus\\OneDrive\\Masaüstü\\gitProjeler\\HamburgerShop\\HamburgerMVC\\HamburgerMVC\\wwwroot\\burger-master\\fonts\\fa-brands-400.woff2",
+      "PackagePath": "staticwebassets\\burger-master\\fonts\\fa-brands-400.woff2"
+    },
+    {
+      "Id": "C:\\Users\\dogus\\OneDrive\\Masaüstü\\gitProjeler\\HamburgerShop\\HamburgerMVC\\HamburgerMVC\\wwwroot\\burger-master\\fonts\\fa-regular-400.eot",
+      "PackagePath": "staticwebassets\\burger-master\\fonts\\fa-regular-400.eot"
+    },
+    {
+      "Id": "C:\\Users\\dogus\\OneDrive\\Masaüstü\\gitProjeler\\HamburgerShop\\HamburgerMVC\\HamburgerMVC\\wwwroot\\burger-master\\fonts\\fa-regular-400.svg",
+      "PackagePath": "staticwebassets\\burger-master\\fonts\\fa-regular-400.svg"
+    },
+    {
+      "Id": "C:\\Users\\dogus\\OneDrive\\Masaüstü\\gitProjeler\\HamburgerShop\\HamburgerMVC\\HamburgerMVC\\wwwroot\\burger-master\\fonts\\fa-regular-400.ttf",
+      "PackagePath": "staticwebassets\\burger-master\\fonts\\fa-regular-400.ttf"
+    },
+    {
+      "Id": "C:\\Users\\dogus\\OneDrive\\Masaüstü\\gitProjeler\\HamburgerShop\\HamburgerMVC\\HamburgerMVC\\wwwroot\\burger-master\\fonts\\fa-regular-400.woff",
+      "PackagePath": "staticwebassets\\burger-master\\fonts\\fa-regular-400.woff"
+    },
+    {
+      "Id": "C:\\Users\\dogus\\OneDrive\\Masaüstü\\gitProjeler\\HamburgerShop\\HamburgerMVC\\HamburgerMVC\\wwwroot\\burger-master\\fonts\\fa-regular-400.woff2",
+      "PackagePath": "staticwebassets\\burger-master\\fonts\\fa-regular-400.woff2"
+    },
+    {
+      "Id": "C:\\Users\\dogus\\OneDrive\\Masaüstü\\gitProjeler\\HamburgerShop\\HamburgerMVC\\HamburgerMVC\\wwwroot\\burger-master\\fonts\\fa-solid-900.eot",
+      "PackagePath": "staticwebassets\\burger-master\\fonts\\fa-solid-900.eot"
+    },
+    {
+      "Id": "C:\\Users\\dogus\\OneDrive\\Masaüstü\\gitProjeler\\HamburgerShop\\HamburgerMVC\\HamburgerMVC\\wwwroot\\burger-master\\fonts\\fa-solid-900.svg",
+      "PackagePath": "staticwebassets\\burger-master\\fonts\\fa-solid-900.svg"
+    },
+    {
+      "Id": "C:\\Users\\dogus\\OneDrive\\Masaüstü\\gitProjeler\\HamburgerShop\\HamburgerMVC\\HamburgerMVC\\wwwroot\\burger-master\\fonts\\fa-solid-900.ttf",
+      "PackagePath": "staticwebassets\\burger-master\\fonts\\fa-solid-900.ttf"
+    },
+    {
+      "Id": "C:\\Users\\dogus\\OneDrive\\Masaüstü\\gitProjeler\\HamburgerShop\\HamburgerMVC\\HamburgerMVC\\wwwroot\\burger-master\\fonts\\fa-solid-900.woff",
+      "PackagePath": "staticwebassets\\burger-master\\fonts\\fa-solid-900.woff"
+    },
+    {
+      "Id": "C:\\Users\\dogus\\OneDrive\\Masaüstü\\gitProjeler\\HamburgerShop\\HamburgerMVC\\HamburgerMVC\\wwwroot\\burger-master\\fonts\\fa-solid-900.woff2",
+      "PackagePath": "staticwebassets\\burger-master\\fonts\\fa-solid-900.woff2"
+    },
+    {
+      "Id": "C:\\Users\\dogus\\OneDrive\\Masaüstü\\gitProjeler\\HamburgerShop\\HamburgerMVC\\HamburgerMVC\\wwwroot\\burger-master\\fonts\\flaticon.css",
+      "PackagePath": "staticwebassets\\burger-master\\fonts\\flaticon.css"
+    },
+    {
+      "Id": "C:\\Users\\dogus\\OneDrive\\Masaüstü\\gitProjeler\\HamburgerShop\\HamburgerMVC\\HamburgerMVC\\wwwroot\\burger-master\\fonts\\fontawesome-webfont.eot",
+      "PackagePath": "staticwebassets\\burger-master\\fonts\\fontawesome-webfont.eot"
+    },
+    {
+      "Id": "C:\\Users\\dogus\\OneDrive\\Masaüstü\\gitProjeler\\HamburgerShop\\HamburgerMVC\\HamburgerMVC\\wwwroot\\burger-master\\fonts\\fontawesome-webfont.svg",
+      "PackagePath": "staticwebassets\\burger-master\\fonts\\fontawesome-webfont.svg"
+    },
+    {
+      "Id": "C:\\Users\\dogus\\OneDrive\\Masaüstü\\gitProjeler\\HamburgerShop\\HamburgerMVC\\HamburgerMVC\\wwwroot\\burger-master\\fonts\\fontawesome-webfont.ttf",
+      "PackagePath": "staticwebassets\\burger-master\\fonts\\fontawesome-webfont.ttf"
+    },
+    {
+      "Id": "C:\\Users\\dogus\\OneDrive\\Masaüstü\\gitProjeler\\HamburgerShop\\HamburgerMVC\\HamburgerMVC\\wwwroot\\burger-master\\fonts\\fontawesome-webfont.woff",
+      "PackagePath": "staticwebassets\\burger-master\\fonts\\fontawesome-webfont.woff"
+    },
+    {
+      "Id": "C:\\Users\\dogus\\OneDrive\\Masaüstü\\gitProjeler\\HamburgerShop\\HamburgerMVC\\HamburgerMVC\\wwwroot\\burger-master\\fonts\\fontawesome-webfont.woff2",
+      "PackagePath": "staticwebassets\\burger-master\\fonts\\fontawesome-webfont.woff2"
+    },
+    {
+      "Id": "C:\\Users\\dogus\\OneDrive\\Masaüstü\\gitProjeler\\HamburgerShop\\HamburgerMVC\\HamburgerMVC\\wwwroot\\burger-master\\fonts\\themify.eot",
+      "PackagePath": "staticwebassets\\burger-master\\fonts\\themify.eot"
+    },
+    {
+      "Id": "C:\\Users\\dogus\\OneDrive\\Masaüstü\\gitProjeler\\HamburgerShop\\HamburgerMVC\\HamburgerMVC\\wwwroot\\burger-master\\fonts\\themify.svg",
+      "PackagePath": "staticwebassets\\burger-master\\fonts\\themify.svg"
+    },
+    {
+      "Id": "C:\\Users\\dogus\\OneDrive\\Masaüstü\\gitProjeler\\HamburgerShop\\HamburgerMVC\\HamburgerMVC\\wwwroot\\burger-master\\fonts\\themify.ttf",
+      "PackagePath": "staticwebassets\\burger-master\\fonts\\themify.ttf"
+    },
+    {
+      "Id": "C:\\Users\\dogus\\OneDrive\\Masaüstü\\gitProjeler\\HamburgerShop\\HamburgerMVC\\HamburgerMVC\\wwwroot\\burger-master\\fonts\\themify.woff",
+      "PackagePath": "staticwebassets\\burger-master\\fonts\\themify.woff"
+    },
+    {
+      "Id": "C:\\Users\\dogus\\OneDrive\\Masaüstü\\gitProjeler\\HamburgerShop\\HamburgerMVC\\HamburgerMVC\\wwwroot\\burger-master\\img\\about\\1.png",
+      "PackagePath": "staticwebassets\\burger-master\\img\\about\\1.png"
+    },
+    {
+      "Id": "C:\\Users\\dogus\\OneDrive\\Masaüstü\\gitProjeler\\HamburgerShop\\HamburgerMVC\\HamburgerMVC\\wwwroot\\burger-master\\img\\about\\2.png",
+      "PackagePath": "staticwebassets\\burger-master\\img\\about\\2.png"
+    },
+    {
+      "Id": "C:\\Users\\dogus\\OneDrive\\Masaüstü\\gitProjeler\\HamburgerShop\\HamburgerMVC\\HamburgerMVC\\wwwroot\\burger-master\\img\\banner\\banner.png",
+      "PackagePath": "staticwebassets\\burger-master\\img\\banner\\banner.png"
+    },
+    {
+      "Id": "C:\\Users\\dogus\\OneDrive\\Masaüstü\\gitProjeler\\HamburgerShop\\HamburgerMVC\\HamburgerMVC\\wwwroot\\burger-master\\img\\banner\\banner2.png",
+      "PackagePath": "staticwebassets\\burger-master\\img\\banner\\banner2.png"
+    },
+    {
+      "Id": "C:\\Users\\dogus\\OneDrive\\Masaüstü\\gitProjeler\\HamburgerShop\\HamburgerMVC\\HamburgerMVC\\wwwroot\\burger-master\\img\\banner\\bradcam.png",
+      "PackagePath": "staticwebassets\\burger-master\\img\\banner\\bradcam.png"
+    },
+    {
+      "Id": "C:\\Users\\dogus\\OneDrive\\Masaüstü\\gitProjeler\\HamburgerShop\\HamburgerMVC\\HamburgerMVC\\wwwroot\\burger-master\\img\\banner\\bradcam2.png",
+      "PackagePath": "staticwebassets\\burger-master\\img\\banner\\bradcam2.png"
+    },
+    {
+      "Id": "C:\\Users\\dogus\\OneDrive\\Masaüstü\\gitProjeler\\HamburgerShop\\HamburgerMVC\\HamburgerMVC\\wwwroot\\burger-master\\img\\banner\\bradcam3.png",
+      "PackagePath": "staticwebassets\\burger-master\\img\\banner\\bradcam3.png"
+    },
+    {
+      "Id": "C:\\Users\\dogus\\OneDrive\\Masaüstü\\gitProjeler\\HamburgerShop\\HamburgerMVC\\HamburgerMVC\\wwwroot\\burger-master\\img\\banner\\burger_bg.png",
+      "PackagePath": "staticwebassets\\burger-master\\img\\banner\\burger_bg.png"
+    },
+    {
+      "Id": "C:\\Users\\dogus\\OneDrive\\Masaüstü\\gitProjeler\\HamburgerShop\\HamburgerMVC\\HamburgerMVC\\wwwroot\\burger-master\\img\\banner\\burger_bg_1.png",
+      "PackagePath": "staticwebassets\\burger-master\\img\\banner\\burger_bg_1.png"
+    },
+    {
+      "Id": "C:\\Users\\dogus\\OneDrive\\Masaüstü\\gitProjeler\\HamburgerShop\\HamburgerMVC\\HamburgerMVC\\wwwroot\\burger-master\\img\\banner\\footer_bg.png",
+      "PackagePath": "staticwebassets\\burger-master\\img\\banner\\footer_bg.png"
+    },
+    {
+      "Id": "C:\\Users\\dogus\\OneDrive\\Masaüstü\\gitProjeler\\HamburgerShop\\HamburgerMVC\\HamburgerMVC\\wwwroot\\burger-master\\img\\blog\\author.png",
+      "PackagePath": "staticwebassets\\burger-master\\img\\blog\\author.png"
+    },
+    {
+      "Id": "C:\\Users\\dogus\\OneDrive\\Masaüstü\\gitProjeler\\HamburgerShop\\HamburgerMVC\\HamburgerMVC\\wwwroot\\burger-master\\img\\blog\\blog_1.png",
+      "PackagePath": "staticwebassets\\burger-master\\img\\blog\\blog_1.png"
+    },
+    {
+      "Id": "C:\\Users\\dogus\\OneDrive\\Masaüstü\\gitProjeler\\HamburgerShop\\HamburgerMVC\\HamburgerMVC\\wwwroot\\burger-master\\img\\blog\\blog_2.png",
+      "PackagePath": "staticwebassets\\burger-master\\img\\blog\\blog_2.png"
+    },
+    {
+      "Id": "C:\\Users\\dogus\\OneDrive\\Masaüstü\\gitProjeler\\HamburgerShop\\HamburgerMVC\\HamburgerMVC\\wwwroot\\burger-master\\img\\blog\\blog_3.png",
+      "PackagePath": "staticwebassets\\burger-master\\img\\blog\\blog_3.png"
+    },
+    {
+      "Id": "C:\\Users\\dogus\\OneDrive\\Masaüstü\\gitProjeler\\HamburgerShop\\HamburgerMVC\\HamburgerMVC\\wwwroot\\burger-master\\img\\blog\\blog_4.png",
+      "PackagePath": "staticwebassets\\burger-master\\img\\blog\\blog_4.png"
+    },
+    {
+      "Id": "C:\\Users\\dogus\\OneDrive\\Masaüstü\\gitProjeler\\HamburgerShop\\HamburgerMVC\\HamburgerMVC\\wwwroot\\burger-master\\img\\blog\\learn_about_bg.png",
+      "PackagePath": "staticwebassets\\burger-master\\img\\blog\\learn_about_bg.png"
+    },
+    {
+      "Id": "C:\\Users\\dogus\\OneDrive\\Masaüstü\\gitProjeler\\HamburgerShop\\HamburgerMVC\\HamburgerMVC\\wwwroot\\burger-master\\img\\blog\\single_blog_1.png",
+      "PackagePath": "staticwebassets\\burger-master\\img\\blog\\single_blog_1.png"
+    },
+    {
+      "Id": "C:\\Users\\dogus\\OneDrive\\Masaüstü\\gitProjeler\\HamburgerShop\\HamburgerMVC\\HamburgerMVC\\wwwroot\\burger-master\\img\\blog\\single_blog_2.png",
+      "PackagePath": "staticwebassets\\burger-master\\img\\blog\\single_blog_2.png"
+    },
+    {
+      "Id": "C:\\Users\\dogus\\OneDrive\\Masaüstü\\gitProjeler\\HamburgerShop\\HamburgerMVC\\HamburgerMVC\\wwwroot\\burger-master\\img\\blog\\single_blog_3.png",
+      "PackagePath": "staticwebassets\\burger-master\\img\\blog\\single_blog_3.png"
+    },
+    {
+      "Id": "C:\\Users\\dogus\\OneDrive\\Masaüstü\\gitProjeler\\HamburgerShop\\HamburgerMVC\\HamburgerMVC\\wwwroot\\burger-master\\img\\blog\\single_blog_4.png",
+      "PackagePath": "staticwebassets\\burger-master\\img\\blog\\single_blog_4.png"
+    },
+    {
+      "Id": "C:\\Users\\dogus\\OneDrive\\Masaüstü\\gitProjeler\\HamburgerShop\\HamburgerMVC\\HamburgerMVC\\wwwroot\\burger-master\\img\\blog\\single_blog_5.png",
+      "PackagePath": "staticwebassets\\burger-master\\img\\blog\\single_blog_5.png"
+    },
+    {
+      "Id": "C:\\Users\\dogus\\OneDrive\\Masaüstü\\gitProjeler\\HamburgerShop\\HamburgerMVC\\HamburgerMVC\\wwwroot\\burger-master\\img\\blog\\slide_thumb_1.png",
+      "PackagePath": "staticwebassets\\burger-master\\img\\blog\\slide_thumb_1.png"
+    },
+    {
+      "Id": "C:\\Users\\dogus\\OneDrive\\Masaüstü\\gitProjeler\\HamburgerShop\\HamburgerMVC\\HamburgerMVC\\wwwroot\\burger-master\\img\\burger\\1.png",
+      "PackagePath": "staticwebassets\\burger-master\\img\\burger\\1.png"
+    },
+    {
+      "Id": "C:\\Users\\dogus\\OneDrive\\Masaüstü\\gitProjeler\\HamburgerShop\\HamburgerMVC\\HamburgerMVC\\wwwroot\\burger-master\\img\\burger\\2.png",
+      "PackagePath": "staticwebassets\\burger-master\\img\\burger\\2.png"
+    },
+    {
+      "Id": "C:\\Users\\dogus\\OneDrive\\Masaüstü\\gitProjeler\\HamburgerShop\\HamburgerMVC\\HamburgerMVC\\wwwroot\\burger-master\\img\\burger\\3.png",
+      "PackagePath": "staticwebassets\\burger-master\\img\\burger\\3.png"
+    },
+    {
+      "Id": "C:\\Users\\dogus\\OneDrive\\Masaüstü\\gitProjeler\\HamburgerShop\\HamburgerMVC\\HamburgerMVC\\wwwroot\\burger-master\\img\\burger\\4.png",
+      "PackagePath": "staticwebassets\\burger-master\\img\\burger\\4.png"
+    },
+    {
+      "Id": "C:\\Users\\dogus\\OneDrive\\Masaüstü\\gitProjeler\\HamburgerShop\\HamburgerMVC\\HamburgerMVC\\wwwroot\\burger-master\\img\\burger\\5.png",
+      "PackagePath": "staticwebassets\\burger-master\\img\\burger\\5.png"
+    },
+    {
+      "Id": "C:\\Users\\dogus\\OneDrive\\Masaüstü\\gitProjeler\\HamburgerShop\\HamburgerMVC\\HamburgerMVC\\wwwroot\\burger-master\\img\\burger\\6.png",
+      "PackagePath": "staticwebassets\\burger-master\\img\\burger\\6.png"
+    },
+    {
+      "Id": "C:\\Users\\dogus\\OneDrive\\Masaüstü\\gitProjeler\\HamburgerShop\\HamburgerMVC\\HamburgerMVC\\wwwroot\\burger-master\\img\\burger\\7.png",
+      "PackagePath": "staticwebassets\\burger-master\\img\\burger\\7.png"
+    },
+    {
+      "Id": "C:\\Users\\dogus\\OneDrive\\Masaüstü\\gitProjeler\\HamburgerShop\\HamburgerMVC\\HamburgerMVC\\wwwroot\\burger-master\\img\\burger\\8.png",
+      "PackagePath": "staticwebassets\\burger-master\\img\\burger\\8.png"
+    },
+    {
+      "Id": "C:\\Users\\dogus\\OneDrive\\Masaüstü\\gitProjeler\\HamburgerShop\\HamburgerMVC\\HamburgerMVC\\wwwroot\\burger-master\\img\\burgers\\1.png",
+      "PackagePath": "staticwebassets\\burger-master\\img\\burgers\\1.png"
+    },
+    {
+      "Id": "C:\\Users\\dogus\\OneDrive\\Masaüstü\\gitProjeler\\HamburgerShop\\HamburgerMVC\\HamburgerMVC\\wwwroot\\burger-master\\img\\burgers\\2.png",
+      "PackagePath": "staticwebassets\\burger-master\\img\\burgers\\2.png"
+    },
+    {
+      "Id": "C:\\Users\\dogus\\OneDrive\\Masaüstü\\gitProjeler\\HamburgerShop\\HamburgerMVC\\HamburgerMVC\\wwwroot\\burger-master\\img\\comment\\comment_1.png",
+      "PackagePath": "staticwebassets\\burger-master\\img\\comment\\comment_1.png"
+    },
+    {
+      "Id": "C:\\Users\\dogus\\OneDrive\\Masaüstü\\gitProjeler\\HamburgerShop\\HamburgerMVC\\HamburgerMVC\\wwwroot\\burger-master\\img\\comment\\comment_2.png",
+      "PackagePath": "staticwebassets\\burger-master\\img\\comment\\comment_2.png"
+    },
+    {
+      "Id": "C:\\Users\\dogus\\OneDrive\\Masaüstü\\gitProjeler\\HamburgerShop\\HamburgerMVC\\HamburgerMVC\\wwwroot\\burger-master\\img\\comment\\comment_3.png",
+      "PackagePath": "staticwebassets\\burger-master\\img\\comment\\comment_3.png"
+    },
+    {
+      "Id": "C:\\Users\\dogus\\OneDrive\\Masaüstü\\gitProjeler\\HamburgerShop\\HamburgerMVC\\HamburgerMVC\\wwwroot\\burger-master\\img\\elements\\a.jpg",
+      "PackagePath": "staticwebassets\\burger-master\\img\\elements\\a.jpg"
+    },
+    {
+      "Id": "C:\\Users\\dogus\\OneDrive\\Masaüstü\\gitProjeler\\HamburgerShop\\HamburgerMVC\\HamburgerMVC\\wwwroot\\burger-master\\img\\elements\\a2.jpg",
+      "PackagePath": "staticwebassets\\burger-master\\img\\elements\\a2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\dogus\\OneDrive\\Masaüstü\\gitProjeler\\HamburgerShop\\HamburgerMVC\\HamburgerMVC\\wwwroot\\burger-master\\img\\elements\\d.jpg",
+      "PackagePath": "staticwebassets\\burger-master\\img\\elements\\d.jpg"
+    },
+    {
+      "Id": "C:\\Users\\dogus\\OneDrive\\Masaüstü\\gitProjeler\\HamburgerShop\\HamburgerMVC\\HamburgerMVC\\wwwroot\\burger-master\\img\\elements\\disabled-check.png",
+      "PackagePath": "staticwebassets\\burger-master\\img\\elements\\disabled-check.png"
+    },
+    {
+      "Id": "C:\\Users\\dogus\\OneDrive\\Masaüstü\\gitProjeler\\HamburgerShop\\HamburgerMVC\\HamburgerMVC\\wwwroot\\burger-master\\img\\elements\\disabled-radio.png",
+      "PackagePath": "staticwebassets\\burger-master\\img\\elements\\disabled-radio.png"
+    },
+    {
+      "Id": "C:\\Users\\dogus\\OneDrive\\Masaüstü\\gitProjeler\\HamburgerShop\\HamburgerMVC\\HamburgerMVC\\wwwroot\\burger-master\\img\\elements\\f1.jpg",
+      "PackagePath": "staticwebassets\\burger-master\\img\\elements\\f1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\dogus\\OneDrive\\Masaüstü\\gitProjeler\\HamburgerShop\\HamburgerMVC\\HamburgerMVC\\wwwroot\\burger-master\\img\\elements\\f2.jpg",
+      "PackagePath": "staticwebassets\\burger-master\\img\\elements\\f2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\dogus\\OneDrive\\Masaüstü\\gitProjeler\\HamburgerShop\\HamburgerMVC\\HamburgerMVC\\wwwroot\\burger-master\\img\\elements\\f3.jpg",
+      "PackagePath": "staticwebassets\\burger-master\\img\\elements\\f3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\dogus\\OneDrive\\Masaüstü\\gitProjeler\\HamburgerShop\\HamburgerMVC\\HamburgerMVC\\wwwroot\\burger-master\\img\\elements\\f4.jpg",
+      "PackagePath": "staticwebassets\\burger-master\\img\\elements\\f4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\dogus\\OneDrive\\Masaüstü\\gitProjeler\\HamburgerShop\\HamburgerMVC\\HamburgerMVC\\wwwroot\\burger-master\\img\\elements\\f5.jpg",
+      "PackagePath": "staticwebassets\\burger-master\\img\\elements\\f5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\dogus\\OneDrive\\Masaüstü\\gitProjeler\\HamburgerShop\\HamburgerMVC\\HamburgerMVC\\wwwroot\\burger-master\\img\\elements\\f6.jpg",
+      "PackagePath": "staticwebassets\\burger-master\\img\\elements\\f6.jpg"
+    },
+    {
+      "Id": "C:\\Users\\dogus\\OneDrive\\Masaüstü\\gitProjeler\\HamburgerShop\\HamburgerMVC\\HamburgerMVC\\wwwroot\\burger-master\\img\\elements\\f7.jpg",
+      "PackagePath": "staticwebassets\\burger-master\\img\\elements\\f7.jpg"
+    },
+    {
+      "Id": "C:\\Users\\dogus\\OneDrive\\Masaüstü\\gitProjeler\\HamburgerShop\\HamburgerMVC\\HamburgerMVC\\wwwroot\\burger-master\\img\\elements\\f8.jpg",
+      "PackagePath": "staticwebassets\\burger-master\\img\\elements\\f8.jpg"
+    },
+    {
+      "Id": "C:\\Users\\dogus\\OneDrive\\Masaüstü\\gitProjeler\\HamburgerShop\\HamburgerMVC\\HamburgerMVC\\wwwroot\\burger-master\\img\\elements\\g1.jpg",
+      "PackagePath": "staticwebassets\\burger-master\\img\\elements\\g1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\dogus\\OneDrive\\Masaüstü\\gitProjeler\\HamburgerShop\\HamburgerMVC\\HamburgerMVC\\wwwroot\\burger-master\\img\\elements\\g2.jpg",
+      "PackagePath": "staticwebassets\\burger-master\\img\\elements\\g2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\dogus\\OneDrive\\Masaüstü\\gitProjeler\\HamburgerShop\\HamburgerMVC\\HamburgerMVC\\wwwroot\\burger-master\\img\\elements\\g3.jpg",
+      "PackagePath": "staticwebassets\\burger-master\\img\\elements\\g3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\dogus\\OneDrive\\Masaüstü\\gitProjeler\\HamburgerShop\\HamburgerMVC\\HamburgerMVC\\wwwroot\\burger-master\\img\\elements\\g4.jpg",
+      "PackagePath": "staticwebassets\\burger-master\\img\\elements\\g4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\dogus\\OneDrive\\Masaüstü\\gitProjeler\\HamburgerShop\\HamburgerMVC\\HamburgerMVC\\wwwroot\\burger-master\\img\\elements\\g5.jpg",
+      "PackagePath": "staticwebassets\\burger-master\\img\\elements\\g5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\dogus\\OneDrive\\Masaüstü\\gitProjeler\\HamburgerShop\\HamburgerMVC\\HamburgerMVC\\wwwroot\\burger-master\\img\\elements\\g6.jpg",
+      "PackagePath": "staticwebassets\\burger-master\\img\\elements\\g6.jpg"
+    },
+    {
+      "Id": "C:\\Users\\dogus\\OneDrive\\Masaüstü\\gitProjeler\\HamburgerShop\\HamburgerMVC\\HamburgerMVC\\wwwroot\\burger-master\\img\\elements\\g7.jpg",
+      "PackagePath": "staticwebassets\\burger-master\\img\\elements\\g7.jpg"
+    },
+    {
+      "Id": "C:\\Users\\dogus\\OneDrive\\Masaüstü\\gitProjeler\\HamburgerShop\\HamburgerMVC\\HamburgerMVC\\wwwroot\\burger-master\\img\\elements\\g8.jpg",
+      "PackagePath": "staticwebassets\\burger-master\\img\\elements\\g8.jpg"
+    },
+    {
+      "Id": "C:\\Users\\dogus\\OneDrive\\Masaüstü\\gitProjeler\\HamburgerShop\\HamburgerMVC\\HamburgerMVC\\wwwroot\\burger-master\\img\\elements\\primary-check.png",
+      "PackagePath": "staticwebassets\\burger-master\\img\\elements\\primary-check.png"
+    },
+    {
+      "Id": "C:\\Users\\dogus\\OneDrive\\Masaüstü\\gitProjeler\\HamburgerShop\\HamburgerMVC\\HamburgerMVC\\wwwroot\\burger-master\\img\\elements\\primary-radio.png",
+      "PackagePath": "staticwebassets\\burger-master\\img\\elements\\primary-radio.png"
+    },
+    {
+      "Id": "C:\\Users\\dogus\\OneDrive\\Masaüstü\\gitProjeler\\HamburgerShop\\HamburgerMVC\\HamburgerMVC\\wwwroot\\burger-master\\img\\elements\\success-check.png",
+      "PackagePath": "staticwebassets\\burger-master\\img\\elements\\success-check.png"
+    },
+    {
+      "Id": "C:\\Users\\dogus\\OneDrive\\Masaüstü\\gitProjeler\\HamburgerShop\\HamburgerMVC\\HamburgerMVC\\wwwroot\\burger-master\\img\\elements\\success-radio.png",
+      "PackagePath": "staticwebassets\\burger-master\\img\\elements\\success-radio.png"
+    },
+    {
+      "Id": "C:\\Users\\dogus\\OneDrive\\Masaüstü\\gitProjeler\\HamburgerShop\\HamburgerMVC\\HamburgerMVC\\wwwroot\\burger-master\\img\\favicon.ico",
+      "PackagePath": "staticwebassets\\burger-master\\img\\favicon.ico"
+    },
+    {
+      "Id": "C:\\Users\\dogus\\OneDrive\\Masaüstü\\gitProjeler\\HamburgerShop\\HamburgerMVC\\HamburgerMVC\\wwwroot\\burger-master\\img\\favicon.png",
+      "PackagePath": "staticwebassets\\burger-master\\img\\favicon.png"
+    },
+    {
+      "Id": "C:\\Users\\dogus\\OneDrive\\Masaüstü\\gitProjeler\\HamburgerShop\\HamburgerMVC\\HamburgerMVC\\wwwroot\\burger-master\\img\\footer-logo.png",
+      "PackagePath": "staticwebassets\\burger-master\\img\\footer-logo.png"
+    },
+    {
+      "Id": "C:\\Users\\dogus\\OneDrive\\Masaüstü\\gitProjeler\\HamburgerShop\\HamburgerMVC\\HamburgerMVC\\wwwroot\\burger-master\\img\\gallery\\1.png",
+      "PackagePath": "staticwebassets\\burger-master\\img\\gallery\\1.png"
+    },
+    {
+      "Id": "C:\\Users\\dogus\\OneDrive\\Masaüstü\\gitProjeler\\HamburgerShop\\HamburgerMVC\\HamburgerMVC\\wwwroot\\burger-master\\img\\gallery\\2.png",
+      "PackagePath": "staticwebassets\\burger-master\\img\\gallery\\2.png"
+    },
+    {
+      "Id": "C:\\Users\\dogus\\OneDrive\\Masaüstü\\gitProjeler\\HamburgerShop\\HamburgerMVC\\HamburgerMVC\\wwwroot\\burger-master\\img\\gallery\\3.png",
+      "PackagePath": "staticwebassets\\burger-master\\img\\gallery\\3.png"
+    },
+    {
+      "Id": "C:\\Users\\dogus\\OneDrive\\Masaüstü\\gitProjeler\\HamburgerShop\\HamburgerMVC\\HamburgerMVC\\wwwroot\\burger-master\\img\\gallery\\4.png",
+      "PackagePath": "staticwebassets\\burger-master\\img\\gallery\\4.png"
+    },
+    {
+      "Id": "C:\\Users\\dogus\\OneDrive\\Masaüstü\\gitProjeler\\HamburgerShop\\HamburgerMVC\\HamburgerMVC\\wwwroot\\burger-master\\img\\gallery\\5.png",
+      "PackagePath": "staticwebassets\\burger-master\\img\\gallery\\5.png"
+    },
+    {
+      "Id": "C:\\Users\\dogus\\OneDrive\\Masaüstü\\gitProjeler\\HamburgerShop\\HamburgerMVC\\HamburgerMVC\\wwwroot\\burger-master\\img\\gallery\\6.png",
+      "PackagePath": "staticwebassets\\burger-master\\img\\gallery\\6.png"
+    },
+    {
+      "Id": "C:\\Users\\dogus\\OneDrive\\Masaüstü\\gitProjeler\\HamburgerShop\\HamburgerMVC\\HamburgerMVC\\wwwroot\\burger-master\\img\\instragram\\1.png",
+      "PackagePath": "staticwebassets\\burger-master\\img\\instragram\\1.png"
+    },
+    {
+      "Id": "C:\\Users\\dogus\\OneDrive\\Masaüstü\\gitProjeler\\HamburgerShop\\HamburgerMVC\\HamburgerMVC\\wwwroot\\burger-master\\img\\instragram\\2.png",
+      "PackagePath": "staticwebassets\\burger-master\\img\\instragram\\2.png"
+    },
+    {
+      "Id": "C:\\Users\\dogus\\OneDrive\\Masaüstü\\gitProjeler\\HamburgerShop\\HamburgerMVC\\HamburgerMVC\\wwwroot\\burger-master\\img\\instragram\\3.png",
+      "PackagePath": "staticwebassets\\burger-master\\img\\instragram\\3.png"
+    },
+    {
+      "Id": "C:\\Users\\dogus\\OneDrive\\Masaüstü\\gitProjeler\\HamburgerShop\\HamburgerMVC\\HamburgerMVC\\wwwroot\\burger-master\\img\\instragram\\4.png",
+      "PackagePath": "staticwebassets\\burger-master\\img\\instragram\\4.png"
+    },
+    {
+      "Id": "C:\\Users\\dogus\\OneDrive\\Masaüstü\\gitProjeler\\HamburgerShop\\HamburgerMVC\\HamburgerMVC\\wwwroot\\burger-master\\img\\jessica-signature.png",
+      "PackagePath": "staticwebassets\\burger-master\\img\\jessica-signature.png"
+    },
+    {
+      "Id": "C:\\Users\\dogus\\OneDrive\\Masaüstü\\gitProjeler\\HamburgerShop\\HamburgerMVC\\HamburgerMVC\\wwwroot\\burger-master\\img\\logo.png",
+      "PackagePath": "staticwebassets\\burger-master\\img\\logo.png"
+    },
+    {
+      "Id": "C:\\Users\\dogus\\OneDrive\\Masaüstü\\gitProjeler\\HamburgerShop\\HamburgerMVC\\HamburgerMVC\\wwwroot\\burger-master\\img\\offers\\1.png",
+      "PackagePath": "staticwebassets\\burger-master\\img\\offers\\1.png"
+    },
+    {
+      "Id": "C:\\Users\\dogus\\OneDrive\\Masaüstü\\gitProjeler\\HamburgerShop\\HamburgerMVC\\HamburgerMVC\\wwwroot\\burger-master\\img\\offers\\2.png",
+      "PackagePath": "staticwebassets\\burger-master\\img\\offers\\2.png"
+    },
+    {
+      "Id": "C:\\Users\\dogus\\OneDrive\\Masaüstü\\gitProjeler\\HamburgerShop\\HamburgerMVC\\HamburgerMVC\\wwwroot\\burger-master\\img\\offers\\3.png",
+      "PackagePath": "staticwebassets\\burger-master\\img\\offers\\3.png"
+    },
+    {
+      "Id": "C:\\Users\\dogus\\OneDrive\\Masaüstü\\gitProjeler\\HamburgerShop\\HamburgerMVC\\HamburgerMVC\\wwwroot\\burger-master\\img\\post\\next.png",
+      "PackagePath": "staticwebassets\\burger-master\\img\\post\\next.png"
+    },
+    {
+      "Id": "C:\\Users\\dogus\\OneDrive\\Masaüstü\\gitProjeler\\HamburgerShop\\HamburgerMVC\\HamburgerMVC\\wwwroot\\burger-master\\img\\post\\post_1.png",
+      "PackagePath": "staticwebassets\\burger-master\\img\\post\\post_1.png"
+    },
+    {
+      "Id": "C:\\Users\\dogus\\OneDrive\\Masaüstü\\gitProjeler\\HamburgerShop\\HamburgerMVC\\HamburgerMVC\\wwwroot\\burger-master\\img\\post\\post_10.png",
+      "PackagePath": "staticwebassets\\burger-master\\img\\post\\post_10.png"
+    },
+    {
+      "Id": "C:\\Users\\dogus\\OneDrive\\Masaüstü\\gitProjeler\\HamburgerShop\\HamburgerMVC\\HamburgerMVC\\wwwroot\\burger-master\\img\\post\\post_2.png",
+      "PackagePath": "staticwebassets\\burger-master\\img\\post\\post_2.png"
+    },
+    {
+      "Id": "C:\\Users\\dogus\\OneDrive\\Masaüstü\\gitProjeler\\HamburgerShop\\HamburgerMVC\\HamburgerMVC\\wwwroot\\burger-master\\img\\post\\post_3.png",
+      "PackagePath": "staticwebassets\\burger-master\\img\\post\\post_3.png"
+    },
+    {
+      "Id": "C:\\Users\\dogus\\OneDrive\\Masaüstü\\gitProjeler\\HamburgerShop\\HamburgerMVC\\HamburgerMVC\\wwwroot\\burger-master\\img\\post\\post_4.png",
+      "PackagePath": "staticwebassets\\burger-master\\img\\post\\post_4.png"
+    },
+    {
+      "Id": "C:\\Users\\dogus\\OneDrive\\Masaüstü\\gitProjeler\\HamburgerShop\\HamburgerMVC\\HamburgerMVC\\wwwroot\\burger-master\\img\\post\\post_5.png",
+      "PackagePath": "staticwebassets\\burger-master\\img\\post\\post_5.png"
+    },
+    {
+      "Id": "C:\\Users\\dogus\\OneDrive\\Masaüstü\\gitProjeler\\HamburgerShop\\HamburgerMVC\\HamburgerMVC\\wwwroot\\burger-master\\img\\post\\post_6.png",
+      "PackagePath": "staticwebassets\\burger-master\\img\\post\\post_6.png"
+    },
+    {
+      "Id": "C:\\Users\\dogus\\OneDrive\\Masaüstü\\gitProjeler\\HamburgerShop\\HamburgerMVC\\HamburgerMVC\\wwwroot\\burger-master\\img\\post\\post_7.png",
+      "PackagePath": "staticwebassets\\burger-master\\img\\post\\post_7.png"
+    },
+    {
+      "Id": "C:\\Users\\dogus\\OneDrive\\Masaüstü\\gitProjeler\\HamburgerShop\\HamburgerMVC\\HamburgerMVC\\wwwroot\\burger-master\\img\\post\\post_8.png",
+      "PackagePath": "staticwebassets\\burger-master\\img\\post\\post_8.png"
+    },
+    {
+      "Id": "C:\\Users\\dogus\\OneDrive\\Masaüstü\\gitProjeler\\HamburgerShop\\HamburgerMVC\\HamburgerMVC\\wwwroot\\burger-master\\img\\post\\post_9.png",
+      "PackagePath": "staticwebassets\\burger-master\\img\\post\\post_9.png"
+    },
+    {
+      "Id": "C:\\Users\\dogus\\OneDrive\\Masaüstü\\gitProjeler\\HamburgerShop\\HamburgerMVC\\HamburgerMVC\\wwwroot\\burger-master\\img\\post\\preview.png",
+      "PackagePath": "staticwebassets\\burger-master\\img\\post\\preview.png"
+    },
+    {
+      "Id": "C:\\Users\\dogus\\OneDrive\\Masaüstü\\gitProjeler\\HamburgerShop\\HamburgerMVC\\HamburgerMVC\\wwwroot\\burger-master\\img\\shape\\1.png",
+      "PackagePath": "staticwebassets\\burger-master\\img\\shape\\1.png"
+    },
+    {
+      "Id": "C:\\Users\\dogus\\OneDrive\\Masaüstü\\gitProjeler\\HamburgerShop\\HamburgerMVC\\HamburgerMVC\\wwwroot\\burger-master\\img\\testmonial\\1.png",
+      "PackagePath": "staticwebassets\\burger-master\\img\\testmonial\\1.png"
+    },
+    {
+      "Id": "C:\\Users\\dogus\\OneDrive\\Masaüstü\\gitProjeler\\HamburgerShop\\HamburgerMVC\\HamburgerMVC\\wwwroot\\burger-master\\img\\testmonial\\2.png",
+      "PackagePath": "staticwebassets\\burger-master\\img\\testmonial\\2.png"
+    },
+    {
+      "Id": "C:\\Users\\dogus\\OneDrive\\Masaüstü\\gitProjeler\\HamburgerShop\\HamburgerMVC\\HamburgerMVC\\wwwroot\\burger-master\\img\\testmonial\\3.png",
+      "PackagePath": "staticwebassets\\burger-master\\img\\testmonial\\3.png"
+    },
+    {
+      "Id": "C:\\Users\\dogus\\OneDrive\\Masaüstü\\gitProjeler\\HamburgerShop\\HamburgerMVC\\HamburgerMVC\\wwwroot\\burger-master\\img\\video\\video.png",
+      "PackagePath": "staticwebassets\\burger-master\\img\\video\\video.png"
+    },
+    {
+      "Id": "C:\\Users\\dogus\\OneDrive\\Masaüstü\\gitProjeler\\HamburgerShop\\HamburgerMVC\\HamburgerMVC\\wwwroot\\burger-master\\index.html",
+      "PackagePath": "staticwebassets\\burger-master\\index.html"
+    },
+    {
+      "Id": "C:\\Users\\dogus\\OneDrive\\Masaüstü\\gitProjeler\\HamburgerShop\\HamburgerMVC\\HamburgerMVC\\wwwroot\\burger-master\\js\\ajax-form.js",
+      "PackagePath": "staticwebassets\\burger-master\\js\\ajax-form.js"
+    },
+    {
+      "Id": "C:\\Users\\dogus\\OneDrive\\Masaüstü\\gitProjeler\\HamburgerShop\\HamburgerMVC\\HamburgerMVC\\wwwroot\\burger-master\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\burger-master\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "C:\\Users\\dogus\\OneDrive\\Masaüstü\\gitProjeler\\HamburgerShop\\HamburgerMVC\\HamburgerMVC\\wwwroot\\burger-master\\js\\contact.js",
+      "PackagePath": "staticwebassets\\burger-master\\js\\contact.js"
+    },
+    {
+      "Id": "C:\\Users\\dogus\\OneDrive\\Masaüstü\\gitProjeler\\HamburgerShop\\HamburgerMVC\\HamburgerMVC\\wwwroot\\burger-master\\js\\imagesloaded.pkgd.min.js",
+      "PackagePath": "staticwebassets\\burger-master\\js\\imagesloaded.pkgd.min.js"
+    },
+    {
+      "Id": "C:\\Users\\dogus\\OneDrive\\Masaüstü\\gitProjeler\\HamburgerShop\\HamburgerMVC\\HamburgerMVC\\wwwroot\\burger-master\\js\\isotope.pkgd.min.js",
+      "PackagePath": "staticwebassets\\burger-master\\js\\isotope.pkgd.min.js"
+    },
+    {
+      "Id": "C:\\Users\\dogus\\OneDrive\\Masaüstü\\gitProjeler\\HamburgerShop\\HamburgerMVC\\HamburgerMVC\\wwwroot\\burger-master\\js\\jquery.ajaxchimp.min.js",
+      "PackagePath": "staticwebassets\\burger-master\\js\\jquery.ajaxchimp.min.js"
+    },
+    {
+      "Id": "C:\\Users\\dogus\\OneDrive\\Masaüstü\\gitProjeler\\HamburgerShop\\HamburgerMVC\\HamburgerMVC\\wwwroot\\burger-master\\js\\jquery.counterup.min.js",
+      "PackagePath": "staticwebassets\\burger-master\\js\\jquery.counterup.min.js"
+    },
+    {
+      "Id": "C:\\Users\\dogus\\OneDrive\\Masaüstü\\gitProjeler\\HamburgerShop\\HamburgerMVC\\HamburgerMVC\\wwwroot\\burger-master\\js\\jquery.form.js",
+      "PackagePath": "staticwebassets\\burger-master\\js\\jquery.form.js"
+    },
+    {
+      "Id": "C:\\Users\\dogus\\OneDrive\\Masaüstü\\gitProjeler\\HamburgerShop\\HamburgerMVC\\HamburgerMVC\\wwwroot\\burger-master\\js\\jquery.magnific-popup.min.js",
+      "PackagePath": "staticwebassets\\burger-master\\js\\jquery.magnific-popup.min.js"
+    },
+    {
+      "Id": "C:\\Users\\dogus\\OneDrive\\Masaüstü\\gitProjeler\\HamburgerShop\\HamburgerMVC\\HamburgerMVC\\wwwroot\\burger-master\\js\\jquery.scrollUp.min.js",
+      "PackagePath": "staticwebassets\\burger-master\\js\\jquery.scrollUp.min.js"
+    },
+    {
+      "Id": "C:\\Users\\dogus\\OneDrive\\Masaüstü\\gitProjeler\\HamburgerShop\\HamburgerMVC\\HamburgerMVC\\wwwroot\\burger-master\\js\\jquery.slicknav.min.js",
+      "PackagePath": "staticwebassets\\burger-master\\js\\jquery.slicknav.min.js"
+    },
+    {
+      "Id": "C:\\Users\\dogus\\OneDrive\\Masaüstü\\gitProjeler\\HamburgerShop\\HamburgerMVC\\HamburgerMVC\\wwwroot\\burger-master\\js\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\burger-master\\js\\jquery.validate.min.js"
+    },
+    {
+      "Id": "C:\\Users\\dogus\\OneDrive\\Masaüstü\\gitProjeler\\HamburgerShop\\HamburgerMVC\\HamburgerMVC\\wwwroot\\burger-master\\js\\mail-script.js",
+      "PackagePath": "staticwebassets\\burger-master\\js\\mail-script.js"
+    },
+    {
+      "Id": "C:\\Users\\dogus\\OneDrive\\Masaüstü\\gitProjeler\\HamburgerShop\\HamburgerMVC\\HamburgerMVC\\wwwroot\\burger-master\\js\\main.js",
+      "PackagePath": "staticwebassets\\burger-master\\js\\main.js"
+    },
+    {
+      "Id": "C:\\Users\\dogus\\OneDrive\\Masaüstü\\gitProjeler\\HamburgerShop\\HamburgerMVC\\HamburgerMVC\\wwwroot\\burger-master\\js\\nice-select.min.js",
+      "PackagePath": "staticwebassets\\burger-master\\js\\nice-select.min.js"
+    },
+    {
+      "Id": "C:\\Users\\dogus\\OneDrive\\Masaüstü\\gitProjeler\\HamburgerShop\\HamburgerMVC\\HamburgerMVC\\wwwroot\\burger-master\\js\\owl.carousel.min.js",
+      "PackagePath": "staticwebassets\\burger-master\\js\\owl.carousel.min.js"
+    },
+    {
+      "Id": "C:\\Users\\dogus\\OneDrive\\Masaüstü\\gitProjeler\\HamburgerShop\\HamburgerMVC\\HamburgerMVC\\wwwroot\\burger-master\\js\\plugins.js",
+      "PackagePath": "staticwebassets\\burger-master\\js\\plugins.js"
+    },
+    {
+      "Id": "C:\\Users\\dogus\\OneDrive\\Masaüstü\\gitProjeler\\HamburgerShop\\HamburgerMVC\\HamburgerMVC\\wwwroot\\burger-master\\js\\popper.min.js",
+      "PackagePath": "staticwebassets\\burger-master\\js\\popper.min.js"
+    },
+    {
+      "Id": "C:\\Users\\dogus\\OneDrive\\Masaüstü\\gitProjeler\\HamburgerShop\\HamburgerMVC\\HamburgerMVC\\wwwroot\\burger-master\\js\\scrollIt.js",
+      "PackagePath": "staticwebassets\\burger-master\\js\\scrollIt.js"
+    },
+    {
+      "Id": "C:\\Users\\dogus\\OneDrive\\Masaüstü\\gitProjeler\\HamburgerShop\\HamburgerMVC\\HamburgerMVC\\wwwroot\\burger-master\\js\\vendor\\jquery-1.12.4.min.js",
+      "PackagePath": "staticwebassets\\burger-master\\js\\vendor\\jquery-1.12.4.min.js"
+    },
+    {
+      "Id": "C:\\Users\\dogus\\OneDrive\\Masaüstü\\gitProjeler\\HamburgerShop\\HamburgerMVC\\HamburgerMVC\\wwwroot\\burger-master\\js\\vendor\\modernizr-3.5.0.min.js",
+      "PackagePath": "staticwebassets\\burger-master\\js\\vendor\\modernizr-3.5.0.min.js"
+    },
+    {
+      "Id": "C:\\Users\\dogus\\OneDrive\\Masaüstü\\gitProjeler\\HamburgerShop\\HamburgerMVC\\HamburgerMVC\\wwwroot\\burger-master\\js\\waypoints.min.js",
+      "PackagePath": "staticwebassets\\burger-master\\js\\waypoints.min.js"
+    },
+    {
+      "Id": "C:\\Users\\dogus\\OneDrive\\Masaüstü\\gitProjeler\\HamburgerShop\\HamburgerMVC\\HamburgerMVC\\wwwroot\\burger-master\\js\\wow.min.js",
+      "PackagePath": "staticwebassets\\burger-master\\js\\wow.min.js"
+    },
+    {
+      "Id": "C:\\Users\\dogus\\OneDrive\\Masaüstü\\gitProjeler\\HamburgerShop\\HamburgerMVC\\HamburgerMVC\\wwwroot\\burger-master\\main.html",
+      "PackagePath": "staticwebassets\\burger-master\\main.html"
+    },
+    {
+      "Id": "C:\\Users\\dogus\\OneDrive\\Masaüstü\\gitProjeler\\HamburgerShop\\HamburgerMVC\\HamburgerMVC\\wwwroot\\burger-master\\readme.txt",
+      "PackagePath": "staticwebassets\\burger-master\\readme.txt"
+    },
+    {
+      "Id": "C:\\Users\\dogus\\OneDrive\\Masaüstü\\gitProjeler\\HamburgerShop\\HamburgerMVC\\HamburgerMVC\\wwwroot\\burger-master\\scss\\_about.scss",
+      "PackagePath": "staticwebassets\\burger-master\\scss\\_about.scss"
+    },
+    {
+      "Id": "C:\\Users\\dogus\\OneDrive\\Masaüstü\\gitProjeler\\HamburgerShop\\HamburgerMVC\\HamburgerMVC\\wwwroot\\burger-master\\scss\\_blog.scss",
+      "PackagePath": "staticwebassets\\burger-master\\scss\\_blog.scss"
+    },
+    {
+      "Id": "C:\\Users\\dogus\\OneDrive\\Masaüstü\\gitProjeler\\HamburgerShop\\HamburgerMVC\\HamburgerMVC\\wwwroot\\burger-master\\scss\\_blog_part.scss",
+      "PackagePath": "staticwebassets\\burger-master\\scss\\_blog_part.scss"
+    },
+    {
+      "Id": "C:\\Users\\dogus\\OneDrive\\Masaüstü\\gitProjeler\\HamburgerShop\\HamburgerMVC\\HamburgerMVC\\wwwroot\\burger-master\\scss\\_bradcam.scss",
+      "PackagePath": "staticwebassets\\burger-master\\scss\\_bradcam.scss"
+    },
+    {
+      "Id": "C:\\Users\\dogus\\OneDrive\\Masaüstü\\gitProjeler\\HamburgerShop\\HamburgerMVC\\HamburgerMVC\\wwwroot\\burger-master\\scss\\_btn.scss",
+      "PackagePath": "staticwebassets\\burger-master\\scss\\_btn.scss"
+    },
+    {
+      "Id": "C:\\Users\\dogus\\OneDrive\\Masaüstü\\gitProjeler\\HamburgerShop\\HamburgerMVC\\HamburgerMVC\\wwwroot\\burger-master\\scss\\_contact.scss",
+      "PackagePath": "staticwebassets\\burger-master\\scss\\_contact.scss"
+    },
+    {
+      "Id": "C:\\Users\\dogus\\OneDrive\\Masaüstü\\gitProjeler\\HamburgerShop\\HamburgerMVC\\HamburgerMVC\\wwwroot\\burger-master\\scss\\_delicious.scss",
+      "PackagePath": "staticwebassets\\burger-master\\scss\\_delicious.scss"
+    },
+    {
+      "Id": "C:\\Users\\dogus\\OneDrive\\Masaüstü\\gitProjeler\\HamburgerShop\\HamburgerMVC\\HamburgerMVC\\wwwroot\\burger-master\\scss\\_elements.scss",
+      "PackagePath": "staticwebassets\\burger-master\\scss\\_elements.scss"
+    },
+    {
+      "Id": "C:\\Users\\dogus\\OneDrive\\Masaüstü\\gitProjeler\\HamburgerShop\\HamburgerMVC\\HamburgerMVC\\wwwroot\\burger-master\\scss\\_extend.scss",
+      "PackagePath": "staticwebassets\\burger-master\\scss\\_extend.scss"
+    },
+    {
+      "Id": "C:\\Users\\dogus\\OneDrive\\Masaüstü\\gitProjeler\\HamburgerShop\\HamburgerMVC\\HamburgerMVC\\wwwroot\\burger-master\\scss\\_footer.scss",
+      "PackagePath": "staticwebassets\\burger-master\\scss\\_footer.scss"
+    },
+    {
+      "Id": "C:\\Users\\dogus\\OneDrive\\Masaüstü\\gitProjeler\\HamburgerShop\\HamburgerMVC\\HamburgerMVC\\wwwroot\\burger-master\\scss\\_gallery.scss",
+      "PackagePath": "staticwebassets\\burger-master\\scss\\_gallery.scss"
+    },
+    {
+      "Id": "C:\\Users\\dogus\\OneDrive\\Masaüstü\\gitProjeler\\HamburgerShop\\HamburgerMVC\\HamburgerMVC\\wwwroot\\burger-master\\scss\\_header.scss",
+      "PackagePath": "staticwebassets\\burger-master\\scss\\_header.scss"
+    },
+    {
+      "Id": "C:\\Users\\dogus\\OneDrive\\Masaüstü\\gitProjeler\\HamburgerShop\\HamburgerMVC\\HamburgerMVC\\wwwroot\\burger-master\\scss\\_mixins.scss",
+      "PackagePath": "staticwebassets\\burger-master\\scss\\_mixins.scss"
+    },
+    {
+      "Id": "C:\\Users\\dogus\\OneDrive\\Masaüstü\\gitProjeler\\HamburgerShop\\HamburgerMVC\\HamburgerMVC\\wwwroot\\burger-master\\scss\\_offers.scss",
+      "PackagePath": "staticwebassets\\burger-master\\scss\\_offers.scss"
+    },
+    {
+      "Id": "C:\\Users\\dogus\\OneDrive\\Masaüstü\\gitProjeler\\HamburgerShop\\HamburgerMVC\\HamburgerMVC\\wwwroot\\burger-master\\scss\\_responsive.scss",
+      "PackagePath": "staticwebassets\\burger-master\\scss\\_responsive.scss"
+    },
+    {
+      "Id": "C:\\Users\\dogus\\OneDrive\\Masaüstü\\gitProjeler\\HamburgerShop\\HamburgerMVC\\HamburgerMVC\\wwwroot\\burger-master\\scss\\_section_title.scss",
+      "PackagePath": "staticwebassets\\burger-master\\scss\\_section_title.scss"
+    },
+    {
+      "Id": "C:\\Users\\dogus\\OneDrive\\Masaüstü\\gitProjeler\\HamburgerShop\\HamburgerMVC\\HamburgerMVC\\wwwroot\\burger-master\\scss\\_slick-nav.scss",
+      "PackagePath": "staticwebassets\\burger-master\\scss\\_slick-nav.scss"
+    },
+    {
+      "Id": "C:\\Users\\dogus\\OneDrive\\Masaüstü\\gitProjeler\\HamburgerShop\\HamburgerMVC\\HamburgerMVC\\wwwroot\\burger-master\\scss\\_slider.scss",
+      "PackagePath": "staticwebassets\\burger-master\\scss\\_slider.scss"
+    },
+    {
+      "Id": "C:\\Users\\dogus\\OneDrive\\Masaüstü\\gitProjeler\\HamburgerShop\\HamburgerMVC\\HamburgerMVC\\wwwroot\\burger-master\\scss\\_testmonial.scss",
+      "PackagePath": "staticwebassets\\burger-master\\scss\\_testmonial.scss"
+    },
+    {
+      "Id": "C:\\Users\\dogus\\OneDrive\\Masaüstü\\gitProjeler\\HamburgerShop\\HamburgerMVC\\HamburgerMVC\\wwwroot\\burger-master\\scss\\_varriable.scss",
+      "PackagePath": "staticwebassets\\burger-master\\scss\\_varriable.scss"
+    },
+    {
+      "Id": "C:\\Users\\dogus\\OneDrive\\Masaüstü\\gitProjeler\\HamburgerShop\\HamburgerMVC\\HamburgerMVC\\wwwroot\\burger-master\\scss\\style.scss",
+      "PackagePath": "staticwebassets\\burger-master\\scss\\style.scss"
+    },
+    {
+      "Id": "C:\\Users\\dogus\\OneDrive\\Masaüstü\\gitProjeler\\HamburgerShop\\HamburgerMVC\\HamburgerMVC\\wwwroot\\burger-master\\scss\\theme-default.scss",
+      "PackagePath": "staticwebassets\\burger-master\\scss\\theme-default.scss"
+    },
+    {
+      "Id": "C:\\Users\\dogus\\OneDrive\\Masaüstü\\gitProjeler\\HamburgerShop\\HamburgerMVC\\HamburgerMVC\\wwwroot\\burger-master\\single-blog.html",
+      "PackagePath": "staticwebassets\\burger-master\\single-blog.html"
+    },
+    {
+      "Id": "C:\\Users\\dogus\\OneDrive\\Masaüstü\\gitProjeler\\HamburgerShop\\HamburgerMVC\\HamburgerMVC\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
     },
     {
       "Id": "C:\\Users\\dogus\\OneDrive\\Masaüstü\\gitProjeler\\HamburgerShop\\HamburgerMVC\\HamburgerMVC\\wwwroot\\js\\site.js",
@@ -8607,6 +9615,470 @@
     {
       "Id": "C:\\Users\\dogus\\OneDrive\\Masaüstü\\gitProjeler\\HamburgerShop\\HamburgerMVC\\HamburgerMVC\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "C:\\Users\\dogus\\OneDrive\\Masaüstü\\gitProjeler\\HamburgerShop\\HamburgerMVC\\HamburgerMVC\\wwwroot\\login-form-20\\.DS_Store",
+      "PackagePath": "staticwebassets\\login-form-20\\.DS_Store"
+    },
+    {
+      "Id": "C:\\Users\\dogus\\OneDrive\\Masaüstü\\gitProjeler\\HamburgerShop\\HamburgerMVC\\HamburgerMVC\\wwwroot\\login-form-20\\css\\.DS_Store",
+      "PackagePath": "staticwebassets\\login-form-20\\css\\.DS_Store"
+    },
+    {
+      "Id": "C:\\Users\\dogus\\OneDrive\\Masaüstü\\gitProjeler\\HamburgerShop\\HamburgerMVC\\HamburgerMVC\\wwwroot\\login-form-20\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\login-form-20\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\dogus\\OneDrive\\Masaüstü\\gitProjeler\\HamburgerShop\\HamburgerMVC\\HamburgerMVC\\wwwroot\\login-form-20\\css\\bootstrap\\.DS_Store",
+      "PackagePath": "staticwebassets\\login-form-20\\css\\bootstrap\\.DS_Store"
+    },
+    {
+      "Id": "C:\\Users\\dogus\\OneDrive\\Masaüstü\\gitProjeler\\HamburgerShop\\HamburgerMVC\\HamburgerMVC\\wwwroot\\login-form-20\\css\\bootstrap\\_media.css",
+      "PackagePath": "staticwebassets\\login-form-20\\css\\bootstrap\\_media.css"
+    },
+    {
+      "Id": "C:\\Users\\dogus\\OneDrive\\Masaüstü\\gitProjeler\\HamburgerShop\\HamburgerMVC\\HamburgerMVC\\wwwroot\\login-form-20\\css\\bootstrap\\mixins\\.DS_Store",
+      "PackagePath": "staticwebassets\\login-form-20\\css\\bootstrap\\mixins\\.DS_Store"
+    },
+    {
+      "Id": "C:\\Users\\dogus\\OneDrive\\Masaüstü\\gitProjeler\\HamburgerShop\\HamburgerMVC\\HamburgerMVC\\wwwroot\\login-form-20\\css\\bootstrap\\mixins\\_border-radius.css",
+      "PackagePath": "staticwebassets\\login-form-20\\css\\bootstrap\\mixins\\_border-radius.css"
+    },
+    {
+      "Id": "C:\\Users\\dogus\\OneDrive\\Masaüstü\\gitProjeler\\HamburgerShop\\HamburgerMVC\\HamburgerMVC\\wwwroot\\login-form-20\\css\\bootstrap\\mixins\\_reset-text.css",
+      "PackagePath": "staticwebassets\\login-form-20\\css\\bootstrap\\mixins\\_reset-text.css"
+    },
+    {
+      "Id": "C:\\Users\\dogus\\OneDrive\\Masaüstü\\gitProjeler\\HamburgerShop\\HamburgerMVC\\HamburgerMVC\\wwwroot\\login-form-20\\css\\bootstrap\\mixins\\_screen-reader.css",
+      "PackagePath": "staticwebassets\\login-form-20\\css\\bootstrap\\mixins\\_screen-reader.css"
+    },
+    {
+      "Id": "C:\\Users\\dogus\\OneDrive\\Masaüstü\\gitProjeler\\HamburgerShop\\HamburgerMVC\\HamburgerMVC\\wwwroot\\login-form-20\\css\\bootstrap\\mixins\\_text-hide.css",
+      "PackagePath": "staticwebassets\\login-form-20\\css\\bootstrap\\mixins\\_text-hide.css"
+    },
+    {
+      "Id": "C:\\Users\\dogus\\OneDrive\\Masaüstü\\gitProjeler\\HamburgerShop\\HamburgerMVC\\HamburgerMVC\\wwwroot\\login-form-20\\css\\bootstrap\\mixins\\_visibility.css",
+      "PackagePath": "staticwebassets\\login-form-20\\css\\bootstrap\\mixins\\_visibility.css"
+    },
+    {
+      "Id": "C:\\Users\\dogus\\OneDrive\\Masaüstü\\gitProjeler\\HamburgerShop\\HamburgerMVC\\HamburgerMVC\\wwwroot\\login-form-20\\css\\bootstrap\\utilities\\_stretched-link.css",
+      "PackagePath": "staticwebassets\\login-form-20\\css\\bootstrap\\utilities\\_stretched-link.css"
+    },
+    {
+      "Id": "C:\\Users\\dogus\\OneDrive\\Masaüstü\\gitProjeler\\HamburgerShop\\HamburgerMVC\\HamburgerMVC\\wwwroot\\login-form-20\\css\\style.css",
+      "PackagePath": "staticwebassets\\login-form-20\\css\\style.css"
+    },
+    {
+      "Id": "C:\\Users\\dogus\\OneDrive\\Masaüstü\\gitProjeler\\HamburgerShop\\HamburgerMVC\\HamburgerMVC\\wwwroot\\login-form-20\\fonts\\.DS_Store",
+      "PackagePath": "staticwebassets\\login-form-20\\fonts\\.DS_Store"
+    },
+    {
+      "Id": "C:\\Users\\dogus\\OneDrive\\Masaüstü\\gitProjeler\\HamburgerShop\\HamburgerMVC\\HamburgerMVC\\wwwroot\\login-form-20\\images\\.DS_Store",
+      "PackagePath": "staticwebassets\\login-form-20\\images\\.DS_Store"
+    },
+    {
+      "Id": "C:\\Users\\dogus\\OneDrive\\Masaüstü\\gitProjeler\\HamburgerShop\\HamburgerMVC\\HamburgerMVC\\wwwroot\\login-form-20\\images\\1312732.jpg",
+      "PackagePath": "staticwebassets\\login-form-20\\images\\1312732.jpg"
+    },
+    {
+      "Id": "C:\\Users\\dogus\\OneDrive\\Masaüstü\\gitProjeler\\HamburgerShop\\HamburgerMVC\\HamburgerMVC\\wwwroot\\login-form-20\\images\\bg.jpg",
+      "PackagePath": "staticwebassets\\login-form-20\\images\\bg.jpg"
+    },
+    {
+      "Id": "C:\\Users\\dogus\\OneDrive\\Masaüstü\\gitProjeler\\HamburgerShop\\HamburgerMVC\\HamburgerMVC\\wwwroot\\login-form-20\\index.html",
+      "PackagePath": "staticwebassets\\login-form-20\\index.html"
+    },
+    {
+      "Id": "C:\\Users\\dogus\\OneDrive\\Masaüstü\\gitProjeler\\HamburgerShop\\HamburgerMVC\\HamburgerMVC\\wwwroot\\login-form-20\\js\\.DS_Store",
+      "PackagePath": "staticwebassets\\login-form-20\\js\\.DS_Store"
+    },
+    {
+      "Id": "C:\\Users\\dogus\\OneDrive\\Masaüstü\\gitProjeler\\HamburgerShop\\HamburgerMVC\\HamburgerMVC\\wwwroot\\login-form-20\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\login-form-20\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "C:\\Users\\dogus\\OneDrive\\Masaüstü\\gitProjeler\\HamburgerShop\\HamburgerMVC\\HamburgerMVC\\wwwroot\\login-form-20\\js\\jquery.min.js",
+      "PackagePath": "staticwebassets\\login-form-20\\js\\jquery.min.js"
+    },
+    {
+      "Id": "C:\\Users\\dogus\\OneDrive\\Masaüstü\\gitProjeler\\HamburgerShop\\HamburgerMVC\\HamburgerMVC\\wwwroot\\login-form-20\\js\\main.js",
+      "PackagePath": "staticwebassets\\login-form-20\\js\\main.js"
+    },
+    {
+      "Id": "C:\\Users\\dogus\\OneDrive\\Masaüstü\\gitProjeler\\HamburgerShop\\HamburgerMVC\\HamburgerMVC\\wwwroot\\login-form-20\\js\\popper.js",
+      "PackagePath": "staticwebassets\\login-form-20\\js\\popper.js"
+    },
+    {
+      "Id": "C:\\Users\\dogus\\OneDrive\\Masaüstü\\gitProjeler\\HamburgerShop\\HamburgerMVC\\HamburgerMVC\\wwwroot\\login-form-20\\main.html",
+      "PackagePath": "staticwebassets\\login-form-20\\main.html"
+    },
+    {
+      "Id": "C:\\Users\\dogus\\OneDrive\\Masaüstü\\gitProjeler\\HamburgerShop\\HamburgerMVC\\HamburgerMVC\\wwwroot\\login-form-20\\scss\\.DS_Store",
+      "PackagePath": "staticwebassets\\login-form-20\\scss\\.DS_Store"
+    },
+    {
+      "Id": "C:\\Users\\dogus\\OneDrive\\Masaüstü\\gitProjeler\\HamburgerShop\\HamburgerMVC\\HamburgerMVC\\wwwroot\\login-form-20\\scss\\bootstrap\\.DS_Store",
+      "PackagePath": "staticwebassets\\login-form-20\\scss\\bootstrap\\.DS_Store"
+    },
+    {
+      "Id": "C:\\Users\\dogus\\OneDrive\\Masaüstü\\gitProjeler\\HamburgerShop\\HamburgerMVC\\HamburgerMVC\\wwwroot\\login-form-20\\scss\\bootstrap\\_alert.scss",
+      "PackagePath": "staticwebassets\\login-form-20\\scss\\bootstrap\\_alert.scss"
+    },
+    {
+      "Id": "C:\\Users\\dogus\\OneDrive\\Masaüstü\\gitProjeler\\HamburgerShop\\HamburgerMVC\\HamburgerMVC\\wwwroot\\login-form-20\\scss\\bootstrap\\_badge.scss",
+      "PackagePath": "staticwebassets\\login-form-20\\scss\\bootstrap\\_badge.scss"
+    },
+    {
+      "Id": "C:\\Users\\dogus\\OneDrive\\Masaüstü\\gitProjeler\\HamburgerShop\\HamburgerMVC\\HamburgerMVC\\wwwroot\\login-form-20\\scss\\bootstrap\\_breadcrumb.scss",
+      "PackagePath": "staticwebassets\\login-form-20\\scss\\bootstrap\\_breadcrumb.scss"
+    },
+    {
+      "Id": "C:\\Users\\dogus\\OneDrive\\Masaüstü\\gitProjeler\\HamburgerShop\\HamburgerMVC\\HamburgerMVC\\wwwroot\\login-form-20\\scss\\bootstrap\\_button-group.scss",
+      "PackagePath": "staticwebassets\\login-form-20\\scss\\bootstrap\\_button-group.scss"
+    },
+    {
+      "Id": "C:\\Users\\dogus\\OneDrive\\Masaüstü\\gitProjeler\\HamburgerShop\\HamburgerMVC\\HamburgerMVC\\wwwroot\\login-form-20\\scss\\bootstrap\\_buttons.scss",
+      "PackagePath": "staticwebassets\\login-form-20\\scss\\bootstrap\\_buttons.scss"
+    },
+    {
+      "Id": "C:\\Users\\dogus\\OneDrive\\Masaüstü\\gitProjeler\\HamburgerShop\\HamburgerMVC\\HamburgerMVC\\wwwroot\\login-form-20\\scss\\bootstrap\\_card.scss",
+      "PackagePath": "staticwebassets\\login-form-20\\scss\\bootstrap\\_card.scss"
+    },
+    {
+      "Id": "C:\\Users\\dogus\\OneDrive\\Masaüstü\\gitProjeler\\HamburgerShop\\HamburgerMVC\\HamburgerMVC\\wwwroot\\login-form-20\\scss\\bootstrap\\_carousel.scss",
+      "PackagePath": "staticwebassets\\login-form-20\\scss\\bootstrap\\_carousel.scss"
+    },
+    {
+      "Id": "C:\\Users\\dogus\\OneDrive\\Masaüstü\\gitProjeler\\HamburgerShop\\HamburgerMVC\\HamburgerMVC\\wwwroot\\login-form-20\\scss\\bootstrap\\_close.scss",
+      "PackagePath": "staticwebassets\\login-form-20\\scss\\bootstrap\\_close.scss"
+    },
+    {
+      "Id": "C:\\Users\\dogus\\OneDrive\\Masaüstü\\gitProjeler\\HamburgerShop\\HamburgerMVC\\HamburgerMVC\\wwwroot\\login-form-20\\scss\\bootstrap\\_code.scss",
+      "PackagePath": "staticwebassets\\login-form-20\\scss\\bootstrap\\_code.scss"
+    },
+    {
+      "Id": "C:\\Users\\dogus\\OneDrive\\Masaüstü\\gitProjeler\\HamburgerShop\\HamburgerMVC\\HamburgerMVC\\wwwroot\\login-form-20\\scss\\bootstrap\\_custom-forms.scss",
+      "PackagePath": "staticwebassets\\login-form-20\\scss\\bootstrap\\_custom-forms.scss"
+    },
+    {
+      "Id": "C:\\Users\\dogus\\OneDrive\\Masaüstü\\gitProjeler\\HamburgerShop\\HamburgerMVC\\HamburgerMVC\\wwwroot\\login-form-20\\scss\\bootstrap\\_dropdown.scss",
+      "PackagePath": "staticwebassets\\login-form-20\\scss\\bootstrap\\_dropdown.scss"
+    },
+    {
+      "Id": "C:\\Users\\dogus\\OneDrive\\Masaüstü\\gitProjeler\\HamburgerShop\\HamburgerMVC\\HamburgerMVC\\wwwroot\\login-form-20\\scss\\bootstrap\\_forms.scss",
+      "PackagePath": "staticwebassets\\login-form-20\\scss\\bootstrap\\_forms.scss"
+    },
+    {
+      "Id": "C:\\Users\\dogus\\OneDrive\\Masaüstü\\gitProjeler\\HamburgerShop\\HamburgerMVC\\HamburgerMVC\\wwwroot\\login-form-20\\scss\\bootstrap\\_functions.scss",
+      "PackagePath": "staticwebassets\\login-form-20\\scss\\bootstrap\\_functions.scss"
+    },
+    {
+      "Id": "C:\\Users\\dogus\\OneDrive\\Masaüstü\\gitProjeler\\HamburgerShop\\HamburgerMVC\\HamburgerMVC\\wwwroot\\login-form-20\\scss\\bootstrap\\_grid.scss",
+      "PackagePath": "staticwebassets\\login-form-20\\scss\\bootstrap\\_grid.scss"
+    },
+    {
+      "Id": "C:\\Users\\dogus\\OneDrive\\Masaüstü\\gitProjeler\\HamburgerShop\\HamburgerMVC\\HamburgerMVC\\wwwroot\\login-form-20\\scss\\bootstrap\\_images.scss",
+      "PackagePath": "staticwebassets\\login-form-20\\scss\\bootstrap\\_images.scss"
+    },
+    {
+      "Id": "C:\\Users\\dogus\\OneDrive\\Masaüstü\\gitProjeler\\HamburgerShop\\HamburgerMVC\\HamburgerMVC\\wwwroot\\login-form-20\\scss\\bootstrap\\_input-group.scss",
+      "PackagePath": "staticwebassets\\login-form-20\\scss\\bootstrap\\_input-group.scss"
+    },
+    {
+      "Id": "C:\\Users\\dogus\\OneDrive\\Masaüstü\\gitProjeler\\HamburgerShop\\HamburgerMVC\\HamburgerMVC\\wwwroot\\login-form-20\\scss\\bootstrap\\_jumbotron.scss",
+      "PackagePath": "staticwebassets\\login-form-20\\scss\\bootstrap\\_jumbotron.scss"
+    },
+    {
+      "Id": "C:\\Users\\dogus\\OneDrive\\Masaüstü\\gitProjeler\\HamburgerShop\\HamburgerMVC\\HamburgerMVC\\wwwroot\\login-form-20\\scss\\bootstrap\\_list-group.scss",
+      "PackagePath": "staticwebassets\\login-form-20\\scss\\bootstrap\\_list-group.scss"
+    },
+    {
+      "Id": "C:\\Users\\dogus\\OneDrive\\Masaüstü\\gitProjeler\\HamburgerShop\\HamburgerMVC\\HamburgerMVC\\wwwroot\\login-form-20\\scss\\bootstrap\\_media.scss",
+      "PackagePath": "staticwebassets\\login-form-20\\scss\\bootstrap\\_media.scss"
+    },
+    {
+      "Id": "C:\\Users\\dogus\\OneDrive\\Masaüstü\\gitProjeler\\HamburgerShop\\HamburgerMVC\\HamburgerMVC\\wwwroot\\login-form-20\\scss\\bootstrap\\_mixins.scss",
+      "PackagePath": "staticwebassets\\login-form-20\\scss\\bootstrap\\_mixins.scss"
+    },
+    {
+      "Id": "C:\\Users\\dogus\\OneDrive\\Masaüstü\\gitProjeler\\HamburgerShop\\HamburgerMVC\\HamburgerMVC\\wwwroot\\login-form-20\\scss\\bootstrap\\_modal.scss",
+      "PackagePath": "staticwebassets\\login-form-20\\scss\\bootstrap\\_modal.scss"
+    },
+    {
+      "Id": "C:\\Users\\dogus\\OneDrive\\Masaüstü\\gitProjeler\\HamburgerShop\\HamburgerMVC\\HamburgerMVC\\wwwroot\\login-form-20\\scss\\bootstrap\\_nav.scss",
+      "PackagePath": "staticwebassets\\login-form-20\\scss\\bootstrap\\_nav.scss"
+    },
+    {
+      "Id": "C:\\Users\\dogus\\OneDrive\\Masaüstü\\gitProjeler\\HamburgerShop\\HamburgerMVC\\HamburgerMVC\\wwwroot\\login-form-20\\scss\\bootstrap\\_navbar.scss",
+      "PackagePath": "staticwebassets\\login-form-20\\scss\\bootstrap\\_navbar.scss"
+    },
+    {
+      "Id": "C:\\Users\\dogus\\OneDrive\\Masaüstü\\gitProjeler\\HamburgerShop\\HamburgerMVC\\HamburgerMVC\\wwwroot\\login-form-20\\scss\\bootstrap\\_pagination.scss",
+      "PackagePath": "staticwebassets\\login-form-20\\scss\\bootstrap\\_pagination.scss"
+    },
+    {
+      "Id": "C:\\Users\\dogus\\OneDrive\\Masaüstü\\gitProjeler\\HamburgerShop\\HamburgerMVC\\HamburgerMVC\\wwwroot\\login-form-20\\scss\\bootstrap\\_popover.scss",
+      "PackagePath": "staticwebassets\\login-form-20\\scss\\bootstrap\\_popover.scss"
+    },
+    {
+      "Id": "C:\\Users\\dogus\\OneDrive\\Masaüstü\\gitProjeler\\HamburgerShop\\HamburgerMVC\\HamburgerMVC\\wwwroot\\login-form-20\\scss\\bootstrap\\_print.scss",
+      "PackagePath": "staticwebassets\\login-form-20\\scss\\bootstrap\\_print.scss"
+    },
+    {
+      "Id": "C:\\Users\\dogus\\OneDrive\\Masaüstü\\gitProjeler\\HamburgerShop\\HamburgerMVC\\HamburgerMVC\\wwwroot\\login-form-20\\scss\\bootstrap\\_progress.scss",
+      "PackagePath": "staticwebassets\\login-form-20\\scss\\bootstrap\\_progress.scss"
+    },
+    {
+      "Id": "C:\\Users\\dogus\\OneDrive\\Masaüstü\\gitProjeler\\HamburgerShop\\HamburgerMVC\\HamburgerMVC\\wwwroot\\login-form-20\\scss\\bootstrap\\_reboot.scss",
+      "PackagePath": "staticwebassets\\login-form-20\\scss\\bootstrap\\_reboot.scss"
+    },
+    {
+      "Id": "C:\\Users\\dogus\\OneDrive\\Masaüstü\\gitProjeler\\HamburgerShop\\HamburgerMVC\\HamburgerMVC\\wwwroot\\login-form-20\\scss\\bootstrap\\_root.scss",
+      "PackagePath": "staticwebassets\\login-form-20\\scss\\bootstrap\\_root.scss"
+    },
+    {
+      "Id": "C:\\Users\\dogus\\OneDrive\\Masaüstü\\gitProjeler\\HamburgerShop\\HamburgerMVC\\HamburgerMVC\\wwwroot\\login-form-20\\scss\\bootstrap\\_spinners.scss",
+      "PackagePath": "staticwebassets\\login-form-20\\scss\\bootstrap\\_spinners.scss"
+    },
+    {
+      "Id": "C:\\Users\\dogus\\OneDrive\\Masaüstü\\gitProjeler\\HamburgerShop\\HamburgerMVC\\HamburgerMVC\\wwwroot\\login-form-20\\scss\\bootstrap\\_tables.scss",
+      "PackagePath": "staticwebassets\\login-form-20\\scss\\bootstrap\\_tables.scss"
+    },
+    {
+      "Id": "C:\\Users\\dogus\\OneDrive\\Masaüstü\\gitProjeler\\HamburgerShop\\HamburgerMVC\\HamburgerMVC\\wwwroot\\login-form-20\\scss\\bootstrap\\_toasts.scss",
+      "PackagePath": "staticwebassets\\login-form-20\\scss\\bootstrap\\_toasts.scss"
+    },
+    {
+      "Id": "C:\\Users\\dogus\\OneDrive\\Masaüstü\\gitProjeler\\HamburgerShop\\HamburgerMVC\\HamburgerMVC\\wwwroot\\login-form-20\\scss\\bootstrap\\_tooltip.scss",
+      "PackagePath": "staticwebassets\\login-form-20\\scss\\bootstrap\\_tooltip.scss"
+    },
+    {
+      "Id": "C:\\Users\\dogus\\OneDrive\\Masaüstü\\gitProjeler\\HamburgerShop\\HamburgerMVC\\HamburgerMVC\\wwwroot\\login-form-20\\scss\\bootstrap\\_transitions.scss",
+      "PackagePath": "staticwebassets\\login-form-20\\scss\\bootstrap\\_transitions.scss"
+    },
+    {
+      "Id": "C:\\Users\\dogus\\OneDrive\\Masaüstü\\gitProjeler\\HamburgerShop\\HamburgerMVC\\HamburgerMVC\\wwwroot\\login-form-20\\scss\\bootstrap\\_type.scss",
+      "PackagePath": "staticwebassets\\login-form-20\\scss\\bootstrap\\_type.scss"
+    },
+    {
+      "Id": "C:\\Users\\dogus\\OneDrive\\Masaüstü\\gitProjeler\\HamburgerShop\\HamburgerMVC\\HamburgerMVC\\wwwroot\\login-form-20\\scss\\bootstrap\\_utilities.scss",
+      "PackagePath": "staticwebassets\\login-form-20\\scss\\bootstrap\\_utilities.scss"
+    },
+    {
+      "Id": "C:\\Users\\dogus\\OneDrive\\Masaüstü\\gitProjeler\\HamburgerShop\\HamburgerMVC\\HamburgerMVC\\wwwroot\\login-form-20\\scss\\bootstrap\\_variables.scss",
+      "PackagePath": "staticwebassets\\login-form-20\\scss\\bootstrap\\_variables.scss"
+    },
+    {
+      "Id": "C:\\Users\\dogus\\OneDrive\\Masaüstü\\gitProjeler\\HamburgerShop\\HamburgerMVC\\HamburgerMVC\\wwwroot\\login-form-20\\scss\\bootstrap\\bootstrap-grid.scss",
+      "PackagePath": "staticwebassets\\login-form-20\\scss\\bootstrap\\bootstrap-grid.scss"
+    },
+    {
+      "Id": "C:\\Users\\dogus\\OneDrive\\Masaüstü\\gitProjeler\\HamburgerShop\\HamburgerMVC\\HamburgerMVC\\wwwroot\\login-form-20\\scss\\bootstrap\\bootstrap-reboot.scss",
+      "PackagePath": "staticwebassets\\login-form-20\\scss\\bootstrap\\bootstrap-reboot.scss"
+    },
+    {
+      "Id": "C:\\Users\\dogus\\OneDrive\\Masaüstü\\gitProjeler\\HamburgerShop\\HamburgerMVC\\HamburgerMVC\\wwwroot\\login-form-20\\scss\\bootstrap\\bootstrap.scss",
+      "PackagePath": "staticwebassets\\login-form-20\\scss\\bootstrap\\bootstrap.scss"
+    },
+    {
+      "Id": "C:\\Users\\dogus\\OneDrive\\Masaüstü\\gitProjeler\\HamburgerShop\\HamburgerMVC\\HamburgerMVC\\wwwroot\\login-form-20\\scss\\bootstrap\\mixins\\_alert.scss",
+      "PackagePath": "staticwebassets\\login-form-20\\scss\\bootstrap\\mixins\\_alert.scss"
+    },
+    {
+      "Id": "C:\\Users\\dogus\\OneDrive\\Masaüstü\\gitProjeler\\HamburgerShop\\HamburgerMVC\\HamburgerMVC\\wwwroot\\login-form-20\\scss\\bootstrap\\mixins\\_background-variant.scss",
+      "PackagePath": "staticwebassets\\login-form-20\\scss\\bootstrap\\mixins\\_background-variant.scss"
+    },
+    {
+      "Id": "C:\\Users\\dogus\\OneDrive\\Masaüstü\\gitProjeler\\HamburgerShop\\HamburgerMVC\\HamburgerMVC\\wwwroot\\login-form-20\\scss\\bootstrap\\mixins\\_badge.scss",
+      "PackagePath": "staticwebassets\\login-form-20\\scss\\bootstrap\\mixins\\_badge.scss"
+    },
+    {
+      "Id": "C:\\Users\\dogus\\OneDrive\\Masaüstü\\gitProjeler\\HamburgerShop\\HamburgerMVC\\HamburgerMVC\\wwwroot\\login-form-20\\scss\\bootstrap\\mixins\\_border-radius.scss",
+      "PackagePath": "staticwebassets\\login-form-20\\scss\\bootstrap\\mixins\\_border-radius.scss"
+    },
+    {
+      "Id": "C:\\Users\\dogus\\OneDrive\\Masaüstü\\gitProjeler\\HamburgerShop\\HamburgerMVC\\HamburgerMVC\\wwwroot\\login-form-20\\scss\\bootstrap\\mixins\\_box-shadow.scss",
+      "PackagePath": "staticwebassets\\login-form-20\\scss\\bootstrap\\mixins\\_box-shadow.scss"
+    },
+    {
+      "Id": "C:\\Users\\dogus\\OneDrive\\Masaüstü\\gitProjeler\\HamburgerShop\\HamburgerMVC\\HamburgerMVC\\wwwroot\\login-form-20\\scss\\bootstrap\\mixins\\_breakpoints.scss",
+      "PackagePath": "staticwebassets\\login-form-20\\scss\\bootstrap\\mixins\\_breakpoints.scss"
+    },
+    {
+      "Id": "C:\\Users\\dogus\\OneDrive\\Masaüstü\\gitProjeler\\HamburgerShop\\HamburgerMVC\\HamburgerMVC\\wwwroot\\login-form-20\\scss\\bootstrap\\mixins\\_buttons.scss",
+      "PackagePath": "staticwebassets\\login-form-20\\scss\\bootstrap\\mixins\\_buttons.scss"
+    },
+    {
+      "Id": "C:\\Users\\dogus\\OneDrive\\Masaüstü\\gitProjeler\\HamburgerShop\\HamburgerMVC\\HamburgerMVC\\wwwroot\\login-form-20\\scss\\bootstrap\\mixins\\_caret.scss",
+      "PackagePath": "staticwebassets\\login-form-20\\scss\\bootstrap\\mixins\\_caret.scss"
+    },
+    {
+      "Id": "C:\\Users\\dogus\\OneDrive\\Masaüstü\\gitProjeler\\HamburgerShop\\HamburgerMVC\\HamburgerMVC\\wwwroot\\login-form-20\\scss\\bootstrap\\mixins\\_clearfix.scss",
+      "PackagePath": "staticwebassets\\login-form-20\\scss\\bootstrap\\mixins\\_clearfix.scss"
+    },
+    {
+      "Id": "C:\\Users\\dogus\\OneDrive\\Masaüstü\\gitProjeler\\HamburgerShop\\HamburgerMVC\\HamburgerMVC\\wwwroot\\login-form-20\\scss\\bootstrap\\mixins\\_deprecate.scss",
+      "PackagePath": "staticwebassets\\login-form-20\\scss\\bootstrap\\mixins\\_deprecate.scss"
+    },
+    {
+      "Id": "C:\\Users\\dogus\\OneDrive\\Masaüstü\\gitProjeler\\HamburgerShop\\HamburgerMVC\\HamburgerMVC\\wwwroot\\login-form-20\\scss\\bootstrap\\mixins\\_float.scss",
+      "PackagePath": "staticwebassets\\login-form-20\\scss\\bootstrap\\mixins\\_float.scss"
+    },
+    {
+      "Id": "C:\\Users\\dogus\\OneDrive\\Masaüstü\\gitProjeler\\HamburgerShop\\HamburgerMVC\\HamburgerMVC\\wwwroot\\login-form-20\\scss\\bootstrap\\mixins\\_forms.scss",
+      "PackagePath": "staticwebassets\\login-form-20\\scss\\bootstrap\\mixins\\_forms.scss"
+    },
+    {
+      "Id": "C:\\Users\\dogus\\OneDrive\\Masaüstü\\gitProjeler\\HamburgerShop\\HamburgerMVC\\HamburgerMVC\\wwwroot\\login-form-20\\scss\\bootstrap\\mixins\\_gradients.scss",
+      "PackagePath": "staticwebassets\\login-form-20\\scss\\bootstrap\\mixins\\_gradients.scss"
+    },
+    {
+      "Id": "C:\\Users\\dogus\\OneDrive\\Masaüstü\\gitProjeler\\HamburgerShop\\HamburgerMVC\\HamburgerMVC\\wwwroot\\login-form-20\\scss\\bootstrap\\mixins\\_grid-framework.scss",
+      "PackagePath": "staticwebassets\\login-form-20\\scss\\bootstrap\\mixins\\_grid-framework.scss"
+    },
+    {
+      "Id": "C:\\Users\\dogus\\OneDrive\\Masaüstü\\gitProjeler\\HamburgerShop\\HamburgerMVC\\HamburgerMVC\\wwwroot\\login-form-20\\scss\\bootstrap\\mixins\\_grid.scss",
+      "PackagePath": "staticwebassets\\login-form-20\\scss\\bootstrap\\mixins\\_grid.scss"
+    },
+    {
+      "Id": "C:\\Users\\dogus\\OneDrive\\Masaüstü\\gitProjeler\\HamburgerShop\\HamburgerMVC\\HamburgerMVC\\wwwroot\\login-form-20\\scss\\bootstrap\\mixins\\_hover.scss",
+      "PackagePath": "staticwebassets\\login-form-20\\scss\\bootstrap\\mixins\\_hover.scss"
+    },
+    {
+      "Id": "C:\\Users\\dogus\\OneDrive\\Masaüstü\\gitProjeler\\HamburgerShop\\HamburgerMVC\\HamburgerMVC\\wwwroot\\login-form-20\\scss\\bootstrap\\mixins\\_image.scss",
+      "PackagePath": "staticwebassets\\login-form-20\\scss\\bootstrap\\mixins\\_image.scss"
+    },
+    {
+      "Id": "C:\\Users\\dogus\\OneDrive\\Masaüstü\\gitProjeler\\HamburgerShop\\HamburgerMVC\\HamburgerMVC\\wwwroot\\login-form-20\\scss\\bootstrap\\mixins\\_list-group.scss",
+      "PackagePath": "staticwebassets\\login-form-20\\scss\\bootstrap\\mixins\\_list-group.scss"
+    },
+    {
+      "Id": "C:\\Users\\dogus\\OneDrive\\Masaüstü\\gitProjeler\\HamburgerShop\\HamburgerMVC\\HamburgerMVC\\wwwroot\\login-form-20\\scss\\bootstrap\\mixins\\_lists.scss",
+      "PackagePath": "staticwebassets\\login-form-20\\scss\\bootstrap\\mixins\\_lists.scss"
+    },
+    {
+      "Id": "C:\\Users\\dogus\\OneDrive\\Masaüstü\\gitProjeler\\HamburgerShop\\HamburgerMVC\\HamburgerMVC\\wwwroot\\login-form-20\\scss\\bootstrap\\mixins\\_nav-divider.scss",
+      "PackagePath": "staticwebassets\\login-form-20\\scss\\bootstrap\\mixins\\_nav-divider.scss"
+    },
+    {
+      "Id": "C:\\Users\\dogus\\OneDrive\\Masaüstü\\gitProjeler\\HamburgerShop\\HamburgerMVC\\HamburgerMVC\\wwwroot\\login-form-20\\scss\\bootstrap\\mixins\\_pagination.scss",
+      "PackagePath": "staticwebassets\\login-form-20\\scss\\bootstrap\\mixins\\_pagination.scss"
+    },
+    {
+      "Id": "C:\\Users\\dogus\\OneDrive\\Masaüstü\\gitProjeler\\HamburgerShop\\HamburgerMVC\\HamburgerMVC\\wwwroot\\login-form-20\\scss\\bootstrap\\mixins\\_reset-text.scss",
+      "PackagePath": "staticwebassets\\login-form-20\\scss\\bootstrap\\mixins\\_reset-text.scss"
+    },
+    {
+      "Id": "C:\\Users\\dogus\\OneDrive\\Masaüstü\\gitProjeler\\HamburgerShop\\HamburgerMVC\\HamburgerMVC\\wwwroot\\login-form-20\\scss\\bootstrap\\mixins\\_resize.scss",
+      "PackagePath": "staticwebassets\\login-form-20\\scss\\bootstrap\\mixins\\_resize.scss"
+    },
+    {
+      "Id": "C:\\Users\\dogus\\OneDrive\\Masaüstü\\gitProjeler\\HamburgerShop\\HamburgerMVC\\HamburgerMVC\\wwwroot\\login-form-20\\scss\\bootstrap\\mixins\\_screen-reader.scss",
+      "PackagePath": "staticwebassets\\login-form-20\\scss\\bootstrap\\mixins\\_screen-reader.scss"
+    },
+    {
+      "Id": "C:\\Users\\dogus\\OneDrive\\Masaüstü\\gitProjeler\\HamburgerShop\\HamburgerMVC\\HamburgerMVC\\wwwroot\\login-form-20\\scss\\bootstrap\\mixins\\_size.scss",
+      "PackagePath": "staticwebassets\\login-form-20\\scss\\bootstrap\\mixins\\_size.scss"
+    },
+    {
+      "Id": "C:\\Users\\dogus\\OneDrive\\Masaüstü\\gitProjeler\\HamburgerShop\\HamburgerMVC\\HamburgerMVC\\wwwroot\\login-form-20\\scss\\bootstrap\\mixins\\_table-row.scss",
+      "PackagePath": "staticwebassets\\login-form-20\\scss\\bootstrap\\mixins\\_table-row.scss"
+    },
+    {
+      "Id": "C:\\Users\\dogus\\OneDrive\\Masaüstü\\gitProjeler\\HamburgerShop\\HamburgerMVC\\HamburgerMVC\\wwwroot\\login-form-20\\scss\\bootstrap\\mixins\\_text-emphasis.scss",
+      "PackagePath": "staticwebassets\\login-form-20\\scss\\bootstrap\\mixins\\_text-emphasis.scss"
+    },
+    {
+      "Id": "C:\\Users\\dogus\\OneDrive\\Masaüstü\\gitProjeler\\HamburgerShop\\HamburgerMVC\\HamburgerMVC\\wwwroot\\login-form-20\\scss\\bootstrap\\mixins\\_text-hide.scss",
+      "PackagePath": "staticwebassets\\login-form-20\\scss\\bootstrap\\mixins\\_text-hide.scss"
+    },
+    {
+      "Id": "C:\\Users\\dogus\\OneDrive\\Masaüstü\\gitProjeler\\HamburgerShop\\HamburgerMVC\\HamburgerMVC\\wwwroot\\login-form-20\\scss\\bootstrap\\mixins\\_text-truncate.scss",
+      "PackagePath": "staticwebassets\\login-form-20\\scss\\bootstrap\\mixins\\_text-truncate.scss"
+    },
+    {
+      "Id": "C:\\Users\\dogus\\OneDrive\\Masaüstü\\gitProjeler\\HamburgerShop\\HamburgerMVC\\HamburgerMVC\\wwwroot\\login-form-20\\scss\\bootstrap\\mixins\\_transition.scss",
+      "PackagePath": "staticwebassets\\login-form-20\\scss\\bootstrap\\mixins\\_transition.scss"
+    },
+    {
+      "Id": "C:\\Users\\dogus\\OneDrive\\Masaüstü\\gitProjeler\\HamburgerShop\\HamburgerMVC\\HamburgerMVC\\wwwroot\\login-form-20\\scss\\bootstrap\\mixins\\_visibility.scss",
+      "PackagePath": "staticwebassets\\login-form-20\\scss\\bootstrap\\mixins\\_visibility.scss"
+    },
+    {
+      "Id": "C:\\Users\\dogus\\OneDrive\\Masaüstü\\gitProjeler\\HamburgerShop\\HamburgerMVC\\HamburgerMVC\\wwwroot\\login-form-20\\scss\\bootstrap\\utilities\\_align.scss",
+      "PackagePath": "staticwebassets\\login-form-20\\scss\\bootstrap\\utilities\\_align.scss"
+    },
+    {
+      "Id": "C:\\Users\\dogus\\OneDrive\\Masaüstü\\gitProjeler\\HamburgerShop\\HamburgerMVC\\HamburgerMVC\\wwwroot\\login-form-20\\scss\\bootstrap\\utilities\\_background.scss",
+      "PackagePath": "staticwebassets\\login-form-20\\scss\\bootstrap\\utilities\\_background.scss"
+    },
+    {
+      "Id": "C:\\Users\\dogus\\OneDrive\\Masaüstü\\gitProjeler\\HamburgerShop\\HamburgerMVC\\HamburgerMVC\\wwwroot\\login-form-20\\scss\\bootstrap\\utilities\\_borders.scss",
+      "PackagePath": "staticwebassets\\login-form-20\\scss\\bootstrap\\utilities\\_borders.scss"
+    },
+    {
+      "Id": "C:\\Users\\dogus\\OneDrive\\Masaüstü\\gitProjeler\\HamburgerShop\\HamburgerMVC\\HamburgerMVC\\wwwroot\\login-form-20\\scss\\bootstrap\\utilities\\_clearfix.scss",
+      "PackagePath": "staticwebassets\\login-form-20\\scss\\bootstrap\\utilities\\_clearfix.scss"
+    },
+    {
+      "Id": "C:\\Users\\dogus\\OneDrive\\Masaüstü\\gitProjeler\\HamburgerShop\\HamburgerMVC\\HamburgerMVC\\wwwroot\\login-form-20\\scss\\bootstrap\\utilities\\_display.scss",
+      "PackagePath": "staticwebassets\\login-form-20\\scss\\bootstrap\\utilities\\_display.scss"
+    },
+    {
+      "Id": "C:\\Users\\dogus\\OneDrive\\Masaüstü\\gitProjeler\\HamburgerShop\\HamburgerMVC\\HamburgerMVC\\wwwroot\\login-form-20\\scss\\bootstrap\\utilities\\_embed.scss",
+      "PackagePath": "staticwebassets\\login-form-20\\scss\\bootstrap\\utilities\\_embed.scss"
+    },
+    {
+      "Id": "C:\\Users\\dogus\\OneDrive\\Masaüstü\\gitProjeler\\HamburgerShop\\HamburgerMVC\\HamburgerMVC\\wwwroot\\login-form-20\\scss\\bootstrap\\utilities\\_flex.scss",
+      "PackagePath": "staticwebassets\\login-form-20\\scss\\bootstrap\\utilities\\_flex.scss"
+    },
+    {
+      "Id": "C:\\Users\\dogus\\OneDrive\\Masaüstü\\gitProjeler\\HamburgerShop\\HamburgerMVC\\HamburgerMVC\\wwwroot\\login-form-20\\scss\\bootstrap\\utilities\\_float.scss",
+      "PackagePath": "staticwebassets\\login-form-20\\scss\\bootstrap\\utilities\\_float.scss"
+    },
+    {
+      "Id": "C:\\Users\\dogus\\OneDrive\\Masaüstü\\gitProjeler\\HamburgerShop\\HamburgerMVC\\HamburgerMVC\\wwwroot\\login-form-20\\scss\\bootstrap\\utilities\\_overflow.scss",
+      "PackagePath": "staticwebassets\\login-form-20\\scss\\bootstrap\\utilities\\_overflow.scss"
+    },
+    {
+      "Id": "C:\\Users\\dogus\\OneDrive\\Masaüstü\\gitProjeler\\HamburgerShop\\HamburgerMVC\\HamburgerMVC\\wwwroot\\login-form-20\\scss\\bootstrap\\utilities\\_position.scss",
+      "PackagePath": "staticwebassets\\login-form-20\\scss\\bootstrap\\utilities\\_position.scss"
+    },
+    {
+      "Id": "C:\\Users\\dogus\\OneDrive\\Masaüstü\\gitProjeler\\HamburgerShop\\HamburgerMVC\\HamburgerMVC\\wwwroot\\login-form-20\\scss\\bootstrap\\utilities\\_screenreaders.scss",
+      "PackagePath": "staticwebassets\\login-form-20\\scss\\bootstrap\\utilities\\_screenreaders.scss"
+    },
+    {
+      "Id": "C:\\Users\\dogus\\OneDrive\\Masaüstü\\gitProjeler\\HamburgerShop\\HamburgerMVC\\HamburgerMVC\\wwwroot\\login-form-20\\scss\\bootstrap\\utilities\\_shadows.scss",
+      "PackagePath": "staticwebassets\\login-form-20\\scss\\bootstrap\\utilities\\_shadows.scss"
+    },
+    {
+      "Id": "C:\\Users\\dogus\\OneDrive\\Masaüstü\\gitProjeler\\HamburgerShop\\HamburgerMVC\\HamburgerMVC\\wwwroot\\login-form-20\\scss\\bootstrap\\utilities\\_sizing.scss",
+      "PackagePath": "staticwebassets\\login-form-20\\scss\\bootstrap\\utilities\\_sizing.scss"
+    },
+    {
+      "Id": "C:\\Users\\dogus\\OneDrive\\Masaüstü\\gitProjeler\\HamburgerShop\\HamburgerMVC\\HamburgerMVC\\wwwroot\\login-form-20\\scss\\bootstrap\\utilities\\_spacing.scss",
+      "PackagePath": "staticwebassets\\login-form-20\\scss\\bootstrap\\utilities\\_spacing.scss"
+    },
+    {
+      "Id": "C:\\Users\\dogus\\OneDrive\\Masaüstü\\gitProjeler\\HamburgerShop\\HamburgerMVC\\HamburgerMVC\\wwwroot\\login-form-20\\scss\\bootstrap\\utilities\\_stretched-link.scss",
+      "PackagePath": "staticwebassets\\login-form-20\\scss\\bootstrap\\utilities\\_stretched-link.scss"
+    },
+    {
+      "Id": "C:\\Users\\dogus\\OneDrive\\Masaüstü\\gitProjeler\\HamburgerShop\\HamburgerMVC\\HamburgerMVC\\wwwroot\\login-form-20\\scss\\bootstrap\\utilities\\_text.scss",
+      "PackagePath": "staticwebassets\\login-form-20\\scss\\bootstrap\\utilities\\_text.scss"
+    },
+    {
+      "Id": "C:\\Users\\dogus\\OneDrive\\Masaüstü\\gitProjeler\\HamburgerShop\\HamburgerMVC\\HamburgerMVC\\wwwroot\\login-form-20\\scss\\bootstrap\\utilities\\_visibility.scss",
+      "PackagePath": "staticwebassets\\login-form-20\\scss\\bootstrap\\utilities\\_visibility.scss"
+    },
+    {
+      "Id": "C:\\Users\\dogus\\OneDrive\\Masaüstü\\gitProjeler\\HamburgerShop\\HamburgerMVC\\HamburgerMVC\\wwwroot\\login-form-20\\scss\\bootstrap\\vendor\\_rfs.scss",
+      "PackagePath": "staticwebassets\\login-form-20\\scss\\bootstrap\\vendor\\_rfs.scss"
+    },
+    {
+      "Id": "C:\\Users\\dogus\\OneDrive\\Masaüstü\\gitProjeler\\HamburgerShop\\HamburgerMVC\\HamburgerMVC\\wwwroot\\login-form-20\\scss\\style.scss",
+      "PackagePath": "staticwebassets\\login-form-20\\scss\\style.scss"
     },
     {
       "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.HamburgerMVC.Microsoft.AspNetCore.StaticWebAssets.props",

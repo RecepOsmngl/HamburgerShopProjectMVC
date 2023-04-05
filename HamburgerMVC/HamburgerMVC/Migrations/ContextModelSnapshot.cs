@@ -91,15 +91,15 @@ namespace HamburgerMVC.Migrations
                         {
                             Id = "8e445865-a24d-4543-a6c6-9443d048cdb9",
                             AccessFailedCount = 0,
-                            ConcurrencyStamp = "70829434-fc3f-403d-a6e0-f56da6823e5d",
+                            ConcurrencyStamp = "7f89a323-8ec8-43d8-8d6b-ababee6c43ff",
                             Email = "manager007@gmail.com",
                             EmailConfirmed = false,
                             LockoutEnabled = false,
                             NormalizedEmail = "MANAGER007@GMAIL.COM",
                             NormalizedUserName = "MANAGER007",
-                            PasswordHash = "AQAAAAEAACcQAAAAEGBdGVWMMnYr+L8kwkYlTPVopv5xbgqGenW9UcB/BNFH24rVR3ZanyZHl2EuEID+Pw==",
+                            PasswordHash = "AQAAAAEAACcQAAAAEBlEr+BTBzcE1xu6reUCv+wFYCZncdroEyqMF9K5mENe67s88pnMFGYwvt1IOycDww==",
                             PhoneNumberConfirmed = false,
-                            SecurityStamp = "0d4671f4-c835-41e7-9e50-347053f1db1c",
+                            SecurityStamp = "9cec3a87-71fb-4847-ade3-10c5ca0400b2",
                             TwoFactorEnabled = false,
                             UserName = "manager007"
                         });
@@ -119,6 +119,9 @@ namespace HamburgerMVC.Migrations
 
                     b.Property<decimal>("ExtraIngredientPrice")
                         .HasColumnType("decimal(18,2)");
+
+                    b.Property<bool>("Selected")
+                        .HasColumnType("bit");
 
                     b.HasKey("ExtraIngredientId");
 
@@ -231,7 +234,7 @@ namespace HamburgerMVC.Migrations
                         new
                         {
                             Id = "2c5e174e-3b0e-446f-86af-483d56fd7210",
-                            ConcurrencyStamp = "3270065b-ba64-45d5-8df9-607fff445d47",
+                            ConcurrencyStamp = "28a22244-79c2-4077-8fb7-cd8435e87f55",
                             Name = "Manager",
                             NormalizedName = "MANAGER"
                         });
