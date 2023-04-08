@@ -1,4 +1,4 @@
-﻿{
+﻿@{
     Layout = null;
 }
 
@@ -43,9 +43,8 @@
                             <div class="main-menu  d-none d-lg-block">
                                 <nav>
                                     <ul id="navigation">
-                                        <li><a class="active" href="#">home</a></li>
-                                        <li><a href="Menu.html">My Orders</a></li>
-                                        <li><a href="about.html">About</a></li>
+                                        <li><a asp-action="HomePage" asp-controller="Order">home</a></li>
+                                        <li><a asp-action="OrderList" asp-controller="Order">My Orders</a></li>
                                     </ul>
                                 </nav>
                             </div>

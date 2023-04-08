@@ -25,5 +25,7 @@ namespace HamburgerMVC.Models.DTOs
         public List<int> ExtraIngredientsIds { get; set; }
         public List<ExtraIngredient> ExtraIngredients { get; set; }
         public List<SelectListItem> DropDownForSize { get; set; }
+        public int OrderNumber { get; set; }
+        public decimal TotalPrice { get; set; }
     }
 }

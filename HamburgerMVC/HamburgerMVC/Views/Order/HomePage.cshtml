@@ -43,9 +43,9 @@
                             <div class="main-menu  d-none d-lg-block">
                                 <nav>
                                     <ul id="navigation">
-                                        <li><a class="active" href="#">home</a></li>
-                                        <li><a href="Menu.html">My Orders</a></li>
-                                        <li><a href="about.html">About</a></li>
+                                        <li><a asp-action="HomePage" asp-controller="Order">Home</a></li>
+                                        <li><a asp-action="OrderList" asp-controller="Order">My Orders</a></li>
+                                        @*<li><a href="about.html">About</a></li>*@
                                     </ul>
                                 </nav>
                             </div>
@@ -135,22 +135,22 @@
     <div class="Burger_President_area">
         <div class="Burger_President_here">
             @foreach (var item in Model.mList)
-            {   
+            {
 
-            <div class="single_Burger_President">
-                <div class="room_thumb">
-                    <img src="/burger-master/img/burgers/1.png" alt="">
-                    <div class="room_heading d-flex justify-content-between align-items-center">
-                        <div class="room_heading_inner">
-                            <span>$@item.MenuPrice</span>
-                            <h3>@item.MenuName</h3>
-                            <p>Great way to make your business appear trust <br> and relevant.</p>
+                <div class="single_Burger_President">
+                    <div class="room_thumb">
+                        <img src="/burger-master/img/burgers/1.png" alt="">
+                        <div class="room_heading d-flex justify-content-between align-items-center">
+                            <div class="room_heading_inner">
+                                <span>$@item.MenuPrice</span>
+                                <h3>@item.MenuName</h3>
+                                <p>Great way to make your business appear trust <br> and relevant.</p>
                                 <a asp-action="OrderDetail" asp-controller="Order" asp-route-id="@item.MenuId" class="boxed-btn3">Order Now</a>
-                        </div>
+                            </div>
 
+                        </div>
                     </div>
                 </div>
-            </div>
 
             }
         </div>

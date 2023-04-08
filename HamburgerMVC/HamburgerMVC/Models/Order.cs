@@ -3,7 +3,7 @@ using System.ComponentModel.DataAnnotations;
 
 namespace HamburgerMVC.Models
 {
-    public enum Size { Small, Medium, Larger }
+    public enum Size { Regular, Big, King }
 
     public class Order
     {
@@ -20,6 +20,8 @@ namespace HamburgerMVC.Models
         public ICollection<MenuOrder> Menus { get; set; }
         public string AppUserId { get; set; }
         public virtual AppUser AppUser { get; set; }
+        public decimal TotalPrice { get; set; }
+        public int OrderNumber { get; set; }
 
     }
 }

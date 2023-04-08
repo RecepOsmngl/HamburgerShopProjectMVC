@@ -91,15 +91,15 @@ namespace HamburgerMVC.Migrations
                         {
                             Id = "8e445865-a24d-4543-a6c6-9443d048cdb9",
                             AccessFailedCount = 0,
-                            ConcurrencyStamp = "7f89a323-8ec8-43d8-8d6b-ababee6c43ff",
+                            ConcurrencyStamp = "0ad0f754-b8f0-4f8c-ac93-ba8ac4f4393f",
                             Email = "manager007@gmail.com",
                             EmailConfirmed = false,
                             LockoutEnabled = false,
                             NormalizedEmail = "MANAGER007@GMAIL.COM",
                             NormalizedUserName = "MANAGER007",
-                            PasswordHash = "AQAAAAEAACcQAAAAEBlEr+BTBzcE1xu6reUCv+wFYCZncdroEyqMF9K5mENe67s88pnMFGYwvt1IOycDww==",
+                            PasswordHash = "AQAAAAEAACcQAAAAEHfybY7lIAXi9EryS8bDcmrsTVZGfci7PPz2nbzUDcXhjZ2c81YaOOvlgdtofDoCNA==",
                             PhoneNumberConfirmed = false,
-                            SecurityStamp = "9cec3a87-71fb-4847-ade3-10c5ca0400b2",
+                            SecurityStamp = "8b6ea6c4-fae8-40df-92f6-a2ea1fa11e07",
                             TwoFactorEnabled = false,
                             UserName = "manager007"
                         });
@@ -140,7 +140,7 @@ namespace HamburgerMVC.Migrations
 
                     b.HasIndex("ExtraIngredientId");
 
-                    b.ToTable("ExtraIngredientOrder");
+                    b.ToTable("ExtraIngredientOrders");
                 });
 
             modelBuilder.Entity("HamburgerMVC.Models.Menu", b =>
@@ -175,7 +175,7 @@ namespace HamburgerMVC.Migrations
 
                     b.HasIndex("MenuId");
 
-                    b.ToTable("MenuOrder");
+                    b.ToTable("MenuOrders");
                 });
 
             modelBuilder.Entity("HamburgerMVC.Models.Order", b =>
@@ -190,12 +190,18 @@ namespace HamburgerMVC.Migrations
                         .IsRequired()
                         .HasColumnType("nvarchar(450)");
 
+                    b.Property<int>("OrderNumber")
+                        .HasColumnType("int");
+
                     b.Property<int>("Quantity")
                         .HasColumnType("int");
 
                     b.Property<string>("Size")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
+
+                    b.Property<decimal>("TotalPrice")
+                        .HasColumnType("decimal(18,2)");
 
                     b.HasKey("OrderId");
 
@@ -234,7 +240,7 @@ namespace HamburgerMVC.Migrations
                         new
                         {
                             Id = "2c5e174e-3b0e-446f-86af-483d56fd7210",
-                            ConcurrencyStamp = "28a22244-79c2-4077-8fb7-cd8435e87f55",
+                            ConcurrencyStamp = "972facfb-8b8d-4883-b695-dbf116df34f8",
                             Name = "Manager",
                             NormalizedName = "MANAGER"
                         });

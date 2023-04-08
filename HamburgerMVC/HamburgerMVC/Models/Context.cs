@@ -15,6 +15,9 @@ namespace HamburgerMVC.Models
         public DbSet<ExtraIngredient> ExtraIngredients { get; set; }
         public DbSet<Menu> Menus { get; set; }
         public DbSet<Order> Orders { get; set; }
+        public DbSet<ExtraIngredientOrder> ExtraIngredientOrders { get; set; }
+        public DbSet<MenuOrder> MenuOrders { get; set; }
+
 
 
         protected override void OnModelCreating(ModelBuilder builder)

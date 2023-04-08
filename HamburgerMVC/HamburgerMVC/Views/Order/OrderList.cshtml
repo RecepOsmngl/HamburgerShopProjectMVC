@@ -1,7 +1,7 @@
-﻿@using HamburgerMVC.Models.DTOs;
-@model List<Order>
+﻿@using HamburgerMVC.Models.ViewModels;
+@model OrderVM
 
-    
+
 @{
     Layout = "_OrderCartLayout";
 }
@@ -15,26 +15,43 @@
             <th>Quantity</th>
             <th>Extra Ingredients</th>
             <th>Menus</th>
+            <th>Total Price</th>
+            <th>Edit</th>
+            <th>Delete</th>
         </tr>
     </thead>
     <tbody>
-        @foreach (var order in Model)
+        @foreach (var order in Model.oList)
         {
             <tr>
-                <td>@order.OrderId</td>
+                <td>@order.OrderNumber</td>
                 <td>@order.Size</td>
                 <td>@order.Quantity</td>
                 <td>
+
                     @*@foreach (var ingredient in order.ExtraIngredients)
-                    {*@
-                        <span>@order.ExtraIngredients</span>
-                    @*}*@
+                    {
+                        <span>@ingredient.ExtraIngredientId</span>
+                    }*@
+                    extra
                 </td>
                 <td>
-                    @*@foreach (var menu in order.Menus)
-                    {*@
+                    @*@foreach (var menu in order.)
+                    {
                         <span>@order.Menus</span>
-                    @*}*@
+                    }*@
+                    lol
+                </td>
+                <td>@order.TotalPrice</td>
+                <td class="align-middle text-center">
+                    <div class="btn-group justify-content-center">
+                        <a asp-action="EditOrder" asp-controller="Order"  asp-route-id="@order.OrderId" class="btn btn-primary btn-block btn-rounded">Edit</a>
+                    </div>
+                </td>
+                <td class="align-middle text-center">
+                    <div class="btn-group justify-content-center">
+                        <a asp-action="DeleteOrder" asp-controller="Order" asp-route-id="@order.OrderId" class="btn btn-danger btn-block btn-rounded">Delete</a>
+                    </div>
                 </td>
             </tr>
         }

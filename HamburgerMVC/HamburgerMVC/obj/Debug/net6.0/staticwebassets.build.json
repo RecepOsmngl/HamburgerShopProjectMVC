@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "aLpaKPBnLAV5WRC/PEfthEn4Sbpvaju2VaKriAExvuo=",
+  "Hash": "dpeho/BBOhs3doypZHjYJsuhwA0TF4KYseukcqbQaGk=",
   "Source": "HamburgerMVC",
   "BasePath": "_content/HamburgerMVC",
   "Mode": "Default",
@@ -35596,23 +35596,6 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\AdminLTE-3.0.4\\starter.html"
-    },
-    {
-      "Identity": "C:\\Users\\dogus\\OneDrive\\Masaüstü\\gitProjeler\\HamburgerShop\\HamburgerMVC\\HamburgerMVC\\wwwroot\\burger-master.rar",
-      "SourceId": "HamburgerMVC",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\dogus\\OneDrive\\Masaüstü\\gitProjeler\\HamburgerShop\\HamburgerMVC\\HamburgerMVC\\wwwroot\\",
-      "BasePath": "_content/HamburgerMVC",
-      "RelativePath": "burger-master.rar",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\burger-master.rar"
     },
     {
       "Identity": "C:\\Users\\dogus\\OneDrive\\Masaüstü\\gitProjeler\\HamburgerShop\\HamburgerMVC\\HamburgerMVC\\wwwroot\\burger-master\\about.html",
