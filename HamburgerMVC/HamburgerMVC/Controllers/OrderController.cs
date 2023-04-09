@@ -51,7 +51,6 @@ namespace HamburgerMVC.Controllers
             AppUser appUser = await userManager.GetUserAsync(HttpContext.User);
             var orders = await context.Orders.Include(x => x.Menus).Include(x => x.ExtraIngredients).Where(x => x.AppUserId == appUser.Id).ToListAsync();
 
-
             var menu = await context.Menus.FindAsync(id);
             if (menu == null)
             {
@@ -127,8 +126,6 @@ namespace HamburgerMVC.Controllers
             totalPrice *= viewModel.Quantity;
 
 
-            //context.Orders.Add(order);
-            //await context.SaveChangesAsync();
             Order order = new Order()
             {
                 AppUserId = userId,
@@ -162,42 +159,15 @@ namespace HamburgerMVC.Controllers
                 await context.SaveChangesAsync();
             }
 
-            //OrderVM orderVM = new OrderVM()
-            //{
-            //    OrderNumber = order.OrderNumber,
-            //    Menu = menu,
-            //    ExtraIngredients = viewModel.ExtraIngredients,
-            //    Size = viewModel.Size,
-            //    Quantity = viewModel.Quantity,
-            //    TotalPrice = totalPrice
-            //};
-
-            //OrderVM orderVM = new OrderVM()
-            //{
-            //    OrderNumber = viewModel.OrderNumber,
-            //    Menu = menu,
-            //    ExtraIngredients = viewModel.ExtraIngredients,
-            //    Size = viewModel.Size,
-            //    Quantity = viewModel.Quantity,
-            //    TotalPrice = totalPrice
-            //};
             return RedirectToAction("OrderList");
 
         }
 
-        
+        OrderVM orderVM1 = new OrderVM();
 
         public async Task<IActionResult> OrderList()
         {
-            //OrderVM orderVM2 = new OrderVM()
-            //{
-            //    OrderNumber = orderVM.OrderNumber,
-            //    Menu = orderVM.Menu,
-            //    ExtraIngredients = orderVM.ExtraIngredients,
-            //    Size = orderVM.Size,
-            //    Quantity = orderVM.Quantity,
-            //    TotalPrice = orderVM.TotalPrice
-            //};
+            
             var user = await userManager.GetUserAsync(HttpContext.User);
             var userId = HttpContext.User.FindFirstValue(ClaimTypes.NameIdentifier);
             if (userId == null)
@@ -205,52 +175,23 @@ namespace HamburgerMVC.Controllers
                 return NotFound();
             }
 
-            OrderVM orderVM1 = new OrderVM();
+            
             orderVM1.oList = context.Orders.Where(x=>x.AppUserId == userId).Select(x => new OrderDTO()
             {
+                OrderId = x.OrderId,
                 OrderNumber = x.OrderNumber,
                 //Menus = x.Menus,
-                //ExtraIngredients = x.ExtraIngredients, 
+                //ExtraIngredients = x.ExtraIngredients,
                 Size = x.Size,
                 Quantity = x.Quantity,
                 TotalPrice = x.TotalPrice
             }).ToList();
-            //List<OrderVM> orderVMs = new List<OrderVM>();
-            //foreach (var order in orderVM.oList)
-            //{
-            //    var extraIngredients = order.ExtraIngredients
-            //    .Select(x => x.ExtraIngredientName)
-            //    .ToList();
-
-            //    OrderVM orderVMNew = new OrderVM()
-            //    {
-            //        OrderNumber = order.OrderNumber,
-            //        Menu = order.Menu,
-            //        ExtraIngredientsNames = extraIngredients,
-            //        DropDownForSize = order.DropDownForSize,
-            //        Quantity = order.Quantity,
-            //        TotalPrice = order.TotalPrice
-            //    };
-
-            //    orderVMs.Add(orderVMNew);
+            
             return View(orderVM1);
         }
-           
-
-
-            //var user = await userManager.GetUserAsync(HttpContext.User);
-            //var userId = HttpContext.User.FindFirstValue(ClaimTypes.NameIdentifier);
-            //if (userId == null)
-            //{
-            //    return NotFound();
-            //}
-
-            //var orders = await context.Orders
-            //    .Where(x => x.AppUserId == userId)
-            //    .ToListAsync();
-            //return View(orders);
-
         
+
+
         public async Task<IActionResult> DeleteOrder(int id)
         {
             var order = await context.Orders.FindAsync(id);
@@ -265,6 +206,36 @@ namespace HamburgerMVC.Controllers
 
             return RedirectToAction("OrderList");
         }
+        public async Task<IActionResult> EditOrder(int id)
+        {
+            var user = await userManager.GetUserAsync(HttpContext.User);
+            var userId = HttpContext.User.FindFirstValue(ClaimTypes.NameIdentifier);
+            if (userId == null)
+            {
+                return NotFound();
+            }
+            orderVM1.Order = await context.Orders.FindAsync(id);
+            return View(orderVM1);
+        }
+        [HttpPost]
+        public async Task<IActionResult> EditOrder(int id, OrderVM orderVM1)
+        {
+            var user = await userManager.GetUserAsync(HttpContext.User);
+            var userId = HttpContext.User.FindFirstValue(ClaimTypes.NameIdentifier);
+            if (userId == null)
+            {
+                return NotFound();
+            }
+            Order order = await context.Orders.FindAsync(id);
+            //order.Menus = orderVM1.Order.Menus;
+            order.Size = orderVM1.Order.Size;
+            order.Quantity = orderVM1.Order.Quantity;
+            order.ExtraIngredients = orderVM1.Order.ExtraIngredients;
+            context.SaveChangesAsync();
+
+            return RedirectToAction("OrderList");
+        }
+
         private List<SelectListItem> FillSize()
         {
             var sizes = Enum.GetValues(typeof(Size))

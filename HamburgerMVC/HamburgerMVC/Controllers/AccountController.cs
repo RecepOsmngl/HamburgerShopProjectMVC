@@ -4,6 +4,8 @@ using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using System.Xml.Linq;
 using Microsoft.AspNetCore.Authorization;
+using System.Net.Mail;
+using System.Text;
 
 namespace HamburgerMVC.Controllers
 {
@@ -13,11 +15,13 @@ namespace HamburgerMVC.Controllers
         private UserManager<AppUser> userManager;
         private RoleManager<IdentityRole> roleManager;
         private SignInManager<AppUser> signInManager;
-        public AccountController(UserManager<AppUser> _userManager, SignInManager<AppUser> _signInManager, RoleManager<IdentityRole> _roleManager)
+        private readonly Context context;
+        public AccountController(UserManager<AppUser> _userManager, SignInManager<AppUser> _signInManager, RoleManager<IdentityRole> _roleManager, Context _context)
         {
             userManager = _userManager;
             signInManager = _signInManager;
             roleManager = _roleManager;
+            context = _context;
         }
         public IActionResult Register()
         {
@@ -97,6 +101,68 @@ namespace HamburgerMVC.Controllers
             return View(login);
 
         }
+        public IActionResult ForgotPassword()
+        {
+            return View();
+        }
+        //[HttpPost]
+       //public async Task<IActionResult> ForgotPassword(string email)
+        //{
+        //    AppUser appUser = await userManager.FindByEmailAsync(email);
+        //    string saltPassword= "";
+        //    string _FromMail = "mucidim59@gmail.com";
+        //    string _FromPassword = "izjudylxzdsrngvk";
+
+        //    string _ToMail = email;
+        //    string _ToPassword = context.Users.Where(x => x.Email == email)
+        //                                            .Select(x => x.PasswordHash)
+        //                                            .First();
+
+        //    //byte[] passwordHashBytes = Convert.FromBase64String(_ToPassword); 
+        //    //byte[] passwordSaltBytes = Convert.FromBase64String(saltPassword); 
+
+        //    var passwordHasher = new PasswordHasher<AppUser>(); 
+
+        //    PasswordVerificationResult result = passwordHasher.VerifyHashedPassword(null, (_ToPassword), (saltPassword));
+
+        //    //saltPassword = Encoding.UTF8.GetString(passwordSaltBytes);
+
+        //    if (result == PasswordVerificationResult.Success)
+        //    {
+        //        string _MailMessage = "<!DOCTYPE html>\r\n" +
+        //                          "<html>\r\n  " +
+        //                          "<head>\r\n    " +
+        //                          "<meta charset=\"utf-8\">\r\n    " +
+        //                          "<title>Password Information</title>\r\n  " +
+        //                          "</head>\r\n  " +
+        //                          "<body>\r\n    " +
+        //                          "<h2>Hello Dear User,</h2>\r\n    " +
+        //                          $"<p>Your password is: <strong>{saltPassword}</strong></p>\r\n    " +
+        //                          "<p>Have a nice day!</p>\r\n  " +
+        //                          "</body>\r\n" +
+        //                          "</html>";
+
+        //        MailMessage mail = new MailMessage();
+        //        SmtpClient SmtpServer = new SmtpClient("smtp.gmail.com");
+
+        //        mail.From = new MailAddress(_FromMail);
+        //        mail.To.Add(_ToMail);
+        //        mail.Subject = "Doe Brothers Password Reminder";
+        //        mail.IsBodyHtml = true;
+        //        mail.Body = _MailMessage;
+
+        //        SmtpServer.Port = 587;
+        //        SmtpServer.Credentials = new System.Net.NetworkCredential(_FromMail, _FromPassword);
+        //        SmtpServer.EnableSsl = true;
+
+        //        SmtpServer.Send(mail);
+        //        return RedirectToAction("Login"); 
+        //    }
+        //    else
+        //    {
+        //        Errors(result);
+        //    }
+        //}
 
         public async Task<IActionResult> Logout()
         {

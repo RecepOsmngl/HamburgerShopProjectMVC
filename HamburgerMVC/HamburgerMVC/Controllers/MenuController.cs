@@ -52,7 +52,7 @@ namespace HamburgerMVC.Controllers
         }
         [HttpPost]
         public IActionResult MenuEdit(int id, MenuVM menuVM)
-        {
+        {//Todo: Add image
             Menu menu = context.Menus.Find(id);
             menu.MenuName = menuVM.Menu.MenuName;
             menu.MenuPrice = menuVM.Menu.MenuPrice;

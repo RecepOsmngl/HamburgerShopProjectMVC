@@ -15,7 +15,7 @@ namespace HamburgerMVC.Models.ViewModels
         public Order Order { get; set; }   
         public Menu Menu { get; set; }
         public List<SelectListItem> DropDownForSize { get; set; }
-        public List<ExtraIngredient> ExtraIngredients { get; set; }
+        public ICollection<ExtraIngredient> ExtraIngredients { get; set; }
         public List<string> ExtraIngredientsNames { get; set; }
         public List<Menu> Menus { get; set; }
         public Size Size { get; set; }

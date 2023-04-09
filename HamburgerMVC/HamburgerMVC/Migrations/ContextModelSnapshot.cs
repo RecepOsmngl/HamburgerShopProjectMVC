@@ -91,15 +91,15 @@ namespace HamburgerMVC.Migrations
                         {
                             Id = "8e445865-a24d-4543-a6c6-9443d048cdb9",
                             AccessFailedCount = 0,
-                            ConcurrencyStamp = "0ad0f754-b8f0-4f8c-ac93-ba8ac4f4393f",
+                            ConcurrencyStamp = "11d23dfe-0d16-4a40-8865-2e7d78ef4978",
                             Email = "manager007@gmail.com",
                             EmailConfirmed = false,
                             LockoutEnabled = false,
                             NormalizedEmail = "MANAGER007@GMAIL.COM",
                             NormalizedUserName = "MANAGER007",
-                            PasswordHash = "AQAAAAEAACcQAAAAEHfybY7lIAXi9EryS8bDcmrsTVZGfci7PPz2nbzUDcXhjZ2c81YaOOvlgdtofDoCNA==",
+                            PasswordHash = "AQAAAAEAACcQAAAAEC7IBeTlJp6GXNbFR0HVYjZXRJ22LeJkEVOzFHG0nLzLRkpMJjEXwomAtQK5xzxifQ==",
                             PhoneNumberConfirmed = false,
-                            SecurityStamp = "8b6ea6c4-fae8-40df-92f6-a2ea1fa11e07",
+                            SecurityStamp = "47c6850c-9708-4e47-a432-3c15a35cc211",
                             TwoFactorEnabled = false,
                             UserName = "manager007"
                         });
@@ -240,7 +240,7 @@ namespace HamburgerMVC.Migrations
                         new
                         {
                             Id = "2c5e174e-3b0e-446f-86af-483d56fd7210",
-                            ConcurrencyStamp = "972facfb-8b8d-4883-b695-dbf116df34f8",
+                            ConcurrencyStamp = "3ef4c48a-a1a6-49e0-bbb8-1e4f0d89087f",
                             Name = "Manager",
                             NormalizedName = "MANAGER"
                         });

@@ -31,11 +31,12 @@ namespace HamburgerMVC
             {
                 opt.User.RequireUniqueEmail = true;
             });
+            //builder.Services.ConfigureApplicationCookie(options =>
+            //{
+            //    options.LoginPath = "/Register/Login";
+            //    options.AccessDeniedPath = "/AccessDenied";
+            //});
 
-            //builder.Services.ConfigureApplicationCookie(
-            //    option => option.LoginPath = "/Register/Login"
-
-            //    );
 
             //builder.Services.ConfigureApplicationCookie(
             //    option =>

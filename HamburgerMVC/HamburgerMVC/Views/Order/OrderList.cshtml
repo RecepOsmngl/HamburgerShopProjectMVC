@@ -5,7 +5,7 @@
 @{
     Layout = "_OrderCartLayout";
 }
-<h1>Order List</h1>
+<h1>Your Order List</h1>
 
 <table class="table table-hover table-striped table-bordered">
     <thead>
@@ -28,7 +28,6 @@
                 <td>@order.Size</td>
                 <td>@order.Quantity</td>
                 <td>
-
                     @*@foreach (var ingredient in order.ExtraIngredients)
                     {
                         <span>@ingredient.ExtraIngredientId</span>
@@ -40,12 +39,12 @@
                     {
                         <span>@order.Menus</span>
                     }*@
-                    lol
+                    @order.Menu
                 </td>
                 <td>@order.TotalPrice</td>
                 <td class="align-middle text-center">
                     <div class="btn-group justify-content-center">
-                        <a asp-action="EditOrder" asp-controller="Order"  asp-route-id="@order.OrderId" class="btn btn-primary btn-block btn-rounded">Edit</a>
+                        <a asp-action="EditOrder" asp-controller="Order" asp-route-id="@order.OrderId" class="btn btn-primary btn-block btn-rounded">Edit</a>
                     </div>
                 </td>
                 <td class="align-middle text-center">

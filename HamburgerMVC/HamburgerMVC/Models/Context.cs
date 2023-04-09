@@ -23,7 +23,6 @@ namespace HamburgerMVC.Models
         protected override void OnModelCreating(ModelBuilder builder)
         {
             base.OnModelCreating(builder);
-
             builder.Entity<ExtraIngredientOrder>().HasKey(x => new { x.OrderId, x.ExtraIngredientId });
             builder.Entity<ExtraIngredientOrder>().HasOne(x => x.ExtraIngredient).WithMany(x => x.Orders).HasForeignKey(x => x.ExtraIngredientId);
             builder.Entity<ExtraIngredientOrder>().HasOne(x => x.Order).WithMany(x => x.ExtraIngredients).HasForeignKey(x => x.OrderId);
