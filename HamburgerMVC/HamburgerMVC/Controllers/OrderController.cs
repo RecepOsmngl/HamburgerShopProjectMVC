@@ -124,6 +124,10 @@ namespace HamburgerMVC.Controllers
                     return NotFound();
             }
             totalPrice *= viewModel.Quantity;
+            foreach (var item in viewModel.ExtraIngredients)
+            {
+                totalPrice += item.ExtraIngredientPrice;
+            }
 
 
             Order order = new Order()
